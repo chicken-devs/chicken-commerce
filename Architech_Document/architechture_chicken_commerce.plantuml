@@ -1,35 +1,67 @@
 # PlantUML Editor
-# Author Huyen Minh Nguyen
-# Fresher Developer
+# Authors:
+#   Huyen Minh Nguyen (Fresher Developer)
+# Contributors:
+#   Viet Pham (Newbie)
 
-@startuml
-package ChickenCommerce{
+@startuml ChickenCommerce
+package ChickenCommerceHost {
 
-package DomainLayer{
-[AccountantApi] #Yellow
-[ProductApi] #Yellow
-[KafkaConsumer]
-[KafkaProducer]
-[BusinessLayer]
+  package Modules {
+    package Account {
 
-AccountantApi --> BusinessLayer
-ProductApi --> BusinessLayer
-KafkaConsumer --> BusinessLayer
-BusinessLayer --> KafkaProducer
+      package Infrastructure {
+        [Repositories]
+        [EventBusClient]
+      }
+
+      package Endpoints {
+        [API Endpoints] #Yellow
+        [GRPC Endpoints] #Yellow
+        [Event Handlers] #Yellow
+      }
+
+      package Core {
+        [Services] #Yellow
+        [IEventBusClient]
+        [Biz Models]
+        [IRepositories]
+      }
+
+      [API Endpoints] --> [Services]
+      [GRPC Endpoints] --> [Services]
+      [Event Handlers] --> [Services]
+
+      [Services] --> [IRepositories] : 1. Fetch Biz Models
+      [Services] --> [Biz Models] : 2. Process Biz
+      [Services] --> [IRepositories] : 3. Persist Data
+      [Services] --> [IEventBusClient] : 4. Publish Event
+
+      [Repositories] ..|> [IRepositories]
+      [EventBusClient] ..|> [IEventBusClient]
+    }
+  }
 }
+
+[Client]
+Client --> [API Endpoints]
+Client --> [GRPC Endpoints]
+Client --> [Event Handlers]
+
+package Kafka {
+  [Producer]
+  [Consumer]
+  [Server]
+
+  [Producer] --> [Server]
+  [Server] --> [Consumer]
+
+  [Producer] ..|> [EventBusClient]
+  [Consumer] ..|> [Event Handlers]
 }
-
-[Kafka]
-KafkaProducer --> Kafka
-Kafka --> KafkaConsumer
-
-[Frontend]
-
-Frontend --> AccountantApi : CRUD operations
-Frontend --> ProductApi : CRUD operations
 
 database MongoDB
-AccountantApi --> MongoDB
-ProductApi --> MongoDB
+MongoDB ..|> Repositories
+
 
 @enduml
