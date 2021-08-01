@@ -1,0 +1,112 @@
+# PlantUML Editor
+# Authors:
+#   Huyen Minh Nguyen (Fresher Developer)
+# Contributors:
+#   Viet Pham (Newbie)
+
+@startuml ChickenCommerce
+package ChickenCommerceHost {
+
+  [AuthMiddleware]
+
+  package Modules {
+
+    package Account {
+
+      package AccInfra {
+        [AccountRepos]
+        [AccEventBusClient]
+      }
+
+      package AccEndpoints {
+        [AccAPIs] #Yellow
+        [AccGRPCs] #Yellow
+        [AccEvents] #Yellow
+      }
+
+      package AccCore {
+        [AccServices] #Yellow
+        [IAccEventBusClient]
+        [Acc Biz Models]
+        [IAccRepos]
+      }
+
+      [AccAPIs] --> [AccServices]
+      [AccGRPCs] --> [AccServices]
+      [AccEvents] --> [AccServices]
+
+      [AccServices] --> [IAccRepos] : 1. Fetch Biz Models
+      [AccServices] --> [Acc Biz Models] : 2. Process Biz
+      [AccServices] --> [IAccRepos] : 3. Persist Data
+      [AccServices] --> [IAccEventBusClient] : 4. Publish Event
+
+      [AccRepos] ..|> [IAccRepos]
+      [AccEventBusClient] ..|> [IAccEventBusClient]
+    }
+
+    package Catalog {
+
+      package CatalogInfra {
+        [CatalogRepos]
+        [CatalogEventBusClient]
+      }
+
+      package CatalogEndpoints {
+        [CatalogAPIs] #Yellow
+        [CatalogGRPCs] #Yellow
+        [CatalogEvents] #Yellow
+      }
+
+      package CatalogCore {
+        [CatalogServices] #Yellow
+        [ICatalogEventBusClient]
+        [Catalog Biz Models]
+        [ICatalogRepos]
+      }
+
+      [CatalogAPIs] --> [CatalogServices]
+      [CatalogGRPCs] --> [CatalogServices]
+      [CatalogEvents] --> [CatalogServices]
+
+      [CatalogServices] --> [ICatalogRepos] : 1. Fetch Biz Models
+      [CatalogServices] --> [Catalog Biz Models] : 2. Process Biz
+      [CatalogServices] --> [ICatalogRepos] : 3. Persist Data
+      [CatalogServices] --> [ICatalogEventBusClient] : 4. Publish Event
+
+      [CatalogRepos] ..|> [ICatalogRepos]
+      [CatalogEventBusClient] ..|> [ICatalogEventBusClient]
+    }
+
+  }
+}
+
+[Client]
+Client --> [AuthMiddleware]
+
+[AuthMiddleware] --> [AccAPIs]
+[AuthMiddleware] --> [AccGRPCs]
+[AuthMiddleware] --> [AccEvents]
+[AuthMiddleware] --> [CatalogAPIs]
+[AuthMiddleware] --> [CatalogGRPCs]
+[AuthMiddleware] --> [CatalogEvents]
+
+package Kafka {
+  [Producer]
+  [Consumer]
+  [Server]
+
+  [Producer] --> [Server]
+  [Server] --> [Consumer]
+
+  [Producer] ..|> [AccEventBusClient]
+  [Consumer] ..|> [AccEvents]
+  
+  [Producer] ..|> [CatalogEventBusClient]
+  [Consumer] ..|> [CatalogEvents]
+}
+
+database MongoDB
+MongoDB ..|> [AccRepos]
+MongoDB ..|> [CatalogRepos]
+
+@enduml
