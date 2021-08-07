@@ -1,60 +1,279 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="941px" preserveAspectRatio="none" style="width:3698px;height:941px;background:#FFFFFF;" version="1.1" viewBox="0 0 3698 941" width="3698px" zoomAndPan="magnify"><defs><filter height="300%" id="fmstbx7nvcbbu" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[923f710a89f3b458ee8f605f2cdbb4a5]
-cluster ChickenCommerceHost--><polygon fill="#FFFFFF" filter="url(#fmstbx7nvcbbu)" points="16,246,186,246,193,269.6094,3421,269.6094,3421,934,16,934,16,246" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="16" x2="193" y1="269.6094" y2="269.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="164" x="20" y="262.5332">ChickenCommerceHost</text><!--MD5=[b81d475bff8382f6de843883a7fc380d]
-cluster Modules--><polygon fill="#FFFFFF" filter="url(#fmstbx7nvcbbu)" points="40,396,107,396,114,419.6094,3397,419.6094,3397,910,40,910,40,396" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="40" x2="114" y1="419.6094" y2="419.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="61" x="44" y="412.5332">Modules</text><!--MD5=[4523f918a499262345e8d765b0fe948b]
-cluster Order--><polygon fill="#FFFFFF" filter="url(#fmstbx7nvcbbu)" points="64,440,111,440,118,463.6094,1890,463.6094,1890,886,64,886,64,440" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="64" x2="118" y1="463.6094" y2="463.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="41" x="68" y="456.5332">Order</text><!--MD5=[c7f138f12a0fef7743e08f362e36696c]
-cluster OrderInfra--><polygon fill="#FFFFFF" filter="url(#fmstbx7nvcbbu)" points="1507,634,1586,634,1593,657.6094,1866,657.6094,1866,734,1507,734,1507,634" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="1507" x2="1593" y1="657.6094" y2="657.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="73" x="1511" y="650.5332">OrderInfra</text><!--MD5=[2c47f9ea3ffafb951b49e9090d8c5d8f]
-cluster OrderEndpoints--><polygon fill="#FFFFFF" filter="url(#fmstbx7nvcbbu)" points="626,484,744,484,751,507.6094,919,507.6094,919,584,626,584,626,484" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="626" x2="751" y1="507.6094" y2="507.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="112" x="630" y="500.5332">OrderEndpoints</text><!--MD5=[b04e4e33d92e4d77a71ab7358942f877]
-cluster OrderCore--><polygon fill="#FFFFFF" filter="url(#fmstbx7nvcbbu)" points="88,634,169,634,176,657.6094,1483,657.6094,1483,862,88,862,88,634" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="88" x2="176" y1="657.6094" y2="657.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="75" x="92" y="650.5332">OrderCore</text><!--MD5=[efb0108df68c95f86fb378679ab58bc2]
-cluster Catalog--><polygon fill="#FFFFFF" filter="url(#fmstbx7nvcbbu)" points="1914,440,1973,440,1980,463.6094,3373,463.6094,3373,886,1914,886,1914,440" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="1914" x2="1980" y1="463.6094" y2="463.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="53" x="1918" y="456.5332">Catalog</text><!--MD5=[abb54f61f809c143747317bc8625fab3]
-cluster CatalogInfra--><polygon fill="#FFFFFF" filter="url(#fmstbx7nvcbbu)" points="2966,634,3057,634,3064,657.6094,3349,657.6094,3349,734,2966,734,2966,634" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="2966" x2="3064" y1="657.6094" y2="657.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="85" x="2970" y="650.5332">CatalogInfra</text><!--MD5=[9dc4d805a77686ce7747ba89562d6809]
-cluster CatalogEndpoints--><polygon fill="#FFFFFF" filter="url(#fmstbx7nvcbbu)" points="2975,484,3105,484,3112,507.6094,3139,507.6094,3139,584,2975,584,2975,484" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="2975" x2="3112" y1="507.6094" y2="507.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="124" x="2979" y="500.5332">CatalogEndpoints</text><!--MD5=[9543729be9e0631994edf1c85b499436]
-cluster CatalogCore--><polygon fill="#FFFFFF" filter="url(#fmstbx7nvcbbu)" points="1938,634,2031,634,2038,657.6094,2942,657.6094,2942,862,1938,862,1938,634" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="1938" x2="2038" y1="657.6094" y2="657.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="87" x="1942" y="650.5332">CatalogCore</text><!--MD5=[caf7b33d2456239656b9b59659f5698e]
-cluster Kafka--><polygon fill="#FFFFFF" filter="url(#fmstbx7nvcbbu)" points="3445,6,3490,6,3497,29.6094,3583,29.6094,3583,346,3445,346,3445,6" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="3445" x2="3497" y1="29.6094" y2="29.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="39" x="3449" y="22.5332">Kafka</text><!--MD5=[27a444fffe1391022728d8b723c73823]
-entity AuthMiddleware--><rect fill="#FEFECE" filter="url(#fmstbx7nvcbbu)" height="47.6094" style="stroke:#A80036;stroke-width:1.5;" width="140" x="625" y="282"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="745" y="287"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="743" y="289"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="743" y="293"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="100" x="640" y="316.5332">AuthMiddleware</text><!--MD5=[d2f599a2583f171de52dfbb620bcbad6]
-entity OrderRepos--><rect fill="#FEFECE" filter="url(#fmstbx7nvcbbu)" height="47.6094" style="stroke:#A80036;stroke-width:1.5;" width="118" x="1523" y="670"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="1621" y="675"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="1619" y="677"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="1619" y="681"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="78" x="1538" y="704.5332">OrderRepos</text><!--MD5=[c405f2012a5492d837da26ca2acb280e]
-entity OrderEventBusClient--><rect fill="#FEFECE" filter="url(#fmstbx7nvcbbu)" height="47.6094" style="stroke:#A80036;stroke-width:1.5;" width="173" x="1676.5" y="670"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="1829.5" y="675"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="1827.5" y="677"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="1827.5" y="681"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="133" x="1691.5" y="704.5332">OrderEventBusClient</text><!--MD5=[871e1cae263001d20152bde91feae972]
-entity OrderAPIs--><rect fill="#FFFF00" filter="url(#fmstbx7nvcbbu)" height="47.6094" style="stroke:#A80036;stroke-width:1.5;" width="105" x="642.5" y="520"/><rect fill="#FFFF00" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="727.5" y="525"/><rect fill="#FFFF00" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="725.5" y="527"/><rect fill="#FFFF00" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="725.5" y="531"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="65" x="657.5" y="554.5332">OrderAPIs</text><!--MD5=[0bd74e357e617e81c71f80b168b00a0e]
-entity OrderEvents--><rect fill="#FFFF00" filter="url(#fmstbx7nvcbbu)" height="47.6094" style="stroke:#A80036;stroke-width:1.5;" width="120" x="783" y="520"/><rect fill="#FFFF00" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="883" y="525"/><rect fill="#FFFF00" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="881" y="527"/><rect fill="#FFFF00" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="881" y="531"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="80" x="798" y="554.5332">OrderEvents</text><!--MD5=[c6fcfa4e7e5dafd891b987f00a6468df]
-entity OrderServices--><rect fill="#FFFF00" filter="url(#fmstbx7nvcbbu)" height="47.6094" style="stroke:#A80036;stroke-width:1.5;" width="131" x="603.5" y="670"/><rect fill="#FFFF00" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="714.5" y="675"/><rect fill="#FFFF00" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="712.5" y="677"/><rect fill="#FFFF00" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="712.5" y="681"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="91" x="618.5" y="704.5332">OrderServices</text><!--MD5=[a26fa793c33ca57a07de975e4fb464e3]
-entity IOrderEventBusClient--><rect fill="#FEFECE" filter="url(#fmstbx7nvcbbu)" height="47.6094" style="stroke:#A80036;stroke-width:1.5;" width="176" x="1008" y="798"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="1164" y="803"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="1162" y="805"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="1162" y="809"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="136" x="1023" y="832.5332">IOrderEventBusClient</text><!--MD5=[13af26407847531c7a1c969418a99b73]
-entity Order Biz Models--><rect fill="#FEFECE" filter="url(#fmstbx7nvcbbu)" height="47.6094" style="stroke:#A80036;stroke-width:1.5;" width="148" x="104" y="798"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="232" y="803"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="230" y="805"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="230" y="809"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="108" x="119" y="832.5332">Order Biz Models</text><!--MD5=[6f8eeae53ecb8327cd703d311559b51c]
-entity IOrderRepos--><rect fill="#FEFECE" filter="url(#fmstbx7nvcbbu)" height="47.6094" style="stroke:#A80036;stroke-width:1.5;" width="121" x="522.5" y="798"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="623.5" y="803"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="621.5" y="805"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="621.5" y="809"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="81" x="537.5" y="832.5332">IOrderRepos</text><!--MD5=[228c78b0718cb42cbc417cff3f1c3d91]
-entity CatalogRepos--><rect fill="#FEFECE" filter="url(#fmstbx7nvcbbu)" height="47.6094" style="stroke:#A80036;stroke-width:1.5;" width="130" x="2982" y="670"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="3092" y="675"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="3090" y="677"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="3090" y="681"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="90" x="2997" y="704.5332">CatalogRepos</text><!--MD5=[04ad52c0e8ca935c03d89bc5c2365383]
-entity CatalogEventBusClient--><rect fill="#FEFECE" filter="url(#fmstbx7nvcbbu)" height="47.6094" style="stroke:#A80036;stroke-width:1.5;" width="185" x="3147.5" y="670"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="3312.5" y="675"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="3310.5" y="677"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="3310.5" y="681"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="145" x="3162.5" y="704.5332">CatalogEventBusClient</text><!--MD5=[98c039e122b183fa7d6dae4a2642f97e]
-entity CatalogEvents--><rect fill="#FFFF00" filter="url(#fmstbx7nvcbbu)" height="47.6094" style="stroke:#A80036;stroke-width:1.5;" width="132" x="2991" y="520"/><rect fill="#FFFF00" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="3103" y="525"/><rect fill="#FFFF00" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="3101" y="527"/><rect fill="#FFFF00" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="3101" y="531"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="92" x="3006" y="554.5332">CatalogEvents</text><!--MD5=[41016a47f335142c1982a47d640d34da]
-entity CatalogServices--><rect fill="#FFFF00" filter="url(#fmstbx7nvcbbu)" height="47.6094" style="stroke:#A80036;stroke-width:1.5;" width="143" x="2357.5" y="670"/><rect fill="#FFFF00" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="2480.5" y="675"/><rect fill="#FFFF00" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="2478.5" y="677"/><rect fill="#FFFF00" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="2478.5" y="681"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="103" x="2372.5" y="704.5332">CatalogServices</text><!--MD5=[119a2027f0a8d5e5a52960d8266ccc5c]
-entity ICatalogEventBusClient--><rect fill="#FEFECE" filter="url(#fmstbx7nvcbbu)" height="47.6094" style="stroke:#A80036;stroke-width:1.5;" width="188" x="2640" y="798"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="2808" y="803"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="2806" y="805"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="2806" y="809"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="148" x="2655" y="832.5332">ICatalogEventBusClient</text><!--MD5=[5aa737370f9bf029b1b2dec94bbaec11]
-entity Catalog Biz Models--><rect fill="#FEFECE" filter="url(#fmstbx7nvcbbu)" height="47.6094" style="stroke:#A80036;stroke-width:1.5;" width="160" x="1954" y="798"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="2094" y="803"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="2092" y="805"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="2092" y="809"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="120" x="1969" y="832.5332">Catalog Biz Models</text><!--MD5=[650a5c47565edaaae125ccf41a45a321]
-entity ICatalogRepos--><rect fill="#FEFECE" filter="url(#fmstbx7nvcbbu)" height="47.6094" style="stroke:#A80036;stroke-width:1.5;" width="133" x="2362.5" y="798"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="2475.5" y="803"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="2473.5" y="805"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="2473.5" y="809"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="93" x="2377.5" y="832.5332">ICatalogRepos</text><!--MD5=[034cc5895b2ef7c10223406b60669bb6]
-entity Producer--><rect fill="#FEFECE" filter="url(#fmstbx7nvcbbu)" height="47.6094" style="stroke:#A80036;stroke-width:1.5;" width="98" x="3469" y="42"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="3547" y="47"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="3545" y="49"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="3545" y="53"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="58" x="3484" y="76.5332">Producer</text><!--MD5=[4d65782647d64e21a92b473b2db819be]
-entity Consumer--><rect fill="#FEFECE" filter="url(#fmstbx7nvcbbu)" height="47.6094" style="stroke:#A80036;stroke-width:1.5;" width="105" x="3461.5" y="282"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="3546.5" y="287"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="3544.5" y="289"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="3544.5" y="293"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="65" x="3476.5" y="316.5332">Consumer</text><!--MD5=[b1435b213846e3ddcd1e6c1cd6b83b9a]
-entity Server--><rect fill="#FEFECE" filter="url(#fmstbx7nvcbbu)" height="47.6094" style="stroke:#A80036;stroke-width:1.5;" width="82" x="3476" y="151"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="3538" y="156"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="3536" y="158"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="3536" y="162"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="42" x="3491" y="185.5332">Server</text><!--MD5=[0ba5ee7700168656dc1b457c6fe9fdac]
-entity Client--><rect fill="#FEFECE" filter="url(#fmstbx7nvcbbu)" height="47.6094" style="stroke:#A80036;stroke-width:1.5;" width="76" x="657" y="151"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="713" y="156"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="711" y="158"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="711" y="162"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="36" x="672" y="185.5332">Client</text><!--MD5=[3b9601505a43ff0caf475da55201420d]
-link OrderAPIs to OrderServices--><path d="M679.63,568.08 C674.19,577.55 668.75,588.89 666,600 C660.75,621.21 661.89,645.98 664.13,664.62 " fill="none" id="OrderAPIs-to-OrderServices" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="664.78,669.7,667.5893,660.2603,664.137,664.7415,659.6558,661.2892,664.78,669.7" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="132" x="667" y="614.4951">1.1 Invoke CreateOrder</text><!--MD5=[7a53c101abefa56b4ed83be3d9fa1c16]
-link OrderServices to Order Biz Models--><path d="M603.06,698.39 C479.48,705.34 222.75,722.9 193,750 C181.39,760.58 177.53,777.7 176.62,792.47 " fill="none" id="OrderServices-to-Order Biz Models" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="176.42,797.79,180.7765,788.9571,176.6198,792.794,172.7829,788.6373,176.42,797.79" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="106" x="194" y="764.4951">1.2 Init Draft Order</text><!--MD5=[79b089142a456ad7b7ea80de94929c98]
-link OrderServices to IOrderRepos--><path d="M603.11,697.36 C564.62,702.55 518.87,716.11 494,750 C480.84,767.93 496.44,783.81 518.05,795.98 " fill="none" id="OrderServices-to-IOrderRepos" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="522.45,798.37,516.4448,790.5638,518.0545,795.9867,512.6316,797.5965,522.45,798.37" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="130" x="495" y="764.4951">1.3 Persist Draft Order</text><!--MD5=[79b089142a456ad7b7ea80de94929c98]
-link OrderServices to IOrderRepos--><path d="M658.36,718.17 C651.17,732.94 641,752.2 630,768 C623.78,776.93 616.24,786.03 609.04,794.1 " fill="none" id="OrderServices-to-IOrderRepos-1" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="605.54,797.98,614.55,794.0026,608.8998,794.2771,608.6253,788.6269,605.54,797.98" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="134" x="642" y="764.4951">1.13 Fetch Given Order</text><!--MD5=[79b089142a456ad7b7ea80de94929c98]
-link OrderServices to IOrderRepos--><path d="M603.39,695.33 C510.76,697.35 348.8,707.1 312,750 C306.79,756.07 306.91,761.82 312,768 C337.52,798.99 445.64,812.12 517.36,817.49 " fill="none" id="OrderServices-to-IOrderRepos-2" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="522.45,817.86,513.772,813.2024,517.4638,817.4885,513.1777,821.1803,522.45,817.86" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="168" x="313" y="764.4951">1.15 Persist Confirmed Order</text><!--MD5=[916b8dcaec679ae716cd2d22a2558d64]
-link OrderServices to IOrderEventBusClient--><path d="M716.54,718.01 C750.78,733.85 798.43,754.4 842,768 C894.38,784.35 954.43,797.14 1002.98,806.06 " fill="none" id="OrderServices-to-IOrderEventBusClient" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="1007.94,806.96,999.8078,801.4041,1003.0218,806.0593,998.3667,809.2733,1007.94,806.96" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="209" x="843" y="764.4951">1.4 Publish DraftOrderCreated Event</text><!--MD5=[916b8dcaec679ae716cd2d22a2558d64]
-link OrderServices to IOrderEventBusClient--><path d="M734.75,697.31 C831.45,701.85 1006.07,714.8 1057,750 C1071.66,760.13 1081.36,777.62 1087.42,792.7 " fill="none" id="OrderServices-to-IOrderEventBusClient-1" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="1089.34,797.71,1089.8627,787.875,1087.5547,793.0396,1082.3901,790.7315,1089.34,797.71" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="369" x="1075" y="764.4951">1.14 Process Order Status Transitioning from Draft to Confirmed</text><!--MD5=[f1193b8fc8aced4053df7939435d852f]
-link OrderEvents to OrderServices--><path d="M834.64,568.22 C828.15,583.76 817.91,603.86 804,618 C783.56,638.78 756.12,655.44 731.33,667.73 " fill="none" id="OrderEvents-to-OrderServices" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="726.73,669.97,736.5728,669.6236,731.2248,667.7799,733.0685,662.4319,726.73,669.97" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="217" x="819" y="614.4951">1.12 Invoke SetOrderStatusConfirmed</text><!--MD5=[bd359d8aad018210db3cf8d49946d231]
-link OrderRepos to IOrderRepos--><path d="M1550.71,718.12 C1525.66,735.24 1488.9,757.37 1453,768 C1443.59,770.79 878.04,803.87 663.94,816.31 " fill="none" id="OrderRepos-to-IOrderRepos" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="none" points="664.12,823.31,643.75,817.48,663.31,809.33,664.12,823.31" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[e1a6c8d4c220a8866da93e4443f20708]
-link OrderEventBusClient to IOrderEventBusClient--><path d="M1717.05,718.1 C1698.98,726.51 1677.84,735.53 1658,742 C1505.51,791.76 1319.69,810.18 1204.6,817 " fill="none" id="OrderEventBusClient-to-IOrderEventBusClient" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="none" points="1204.66,824,1184.31,818.12,1203.89,810.03,1204.66,824" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[8fbe6f0ddc0baa8c3140c92aed871b1f]
-link CatalogEvents to CatalogServices--><path d="M2990.98,560.56 C2873.88,588.16 2630.45,645.52 2505.95,674.86 " fill="none" id="CatalogEvents-to-CatalogServices" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="2500.85,676.07,2510.5269,677.9023,2505.7171,674.9248,2508.6946,670.115,2500.85,676.07" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="160" x="2819" y="614.4951">1.6 Invoke ReserveProducts</text><!--MD5=[22bba8f966e6480ac0e5be7b4d51ff4e]
-link CatalogServices to ICatalogRepos--><path d="M2427.24,718.01 C2426.34,732.38 2425.53,751.26 2426,768 C2426.22,775.93 2426.64,784.53 2427.09,792.44 " fill="none" id="CatalogServices-to-ICatalogRepos" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="2427.4,797.79,2430.8785,788.5759,2427.1139,792.7982,2422.8916,789.0336,2427.4,797.79" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="165" x="2427" y="764.4951">1.7 Fetch Catalog Biz Model</text><!--MD5=[22bba8f966e6480ac0e5be7b4d51ff4e]
-link CatalogServices to ICatalogRepos--><path d="M2357.27,699.28 C2291.59,706.04 2209.35,723.42 2243,768 C2257.1,786.68 2311.01,800.73 2357.19,809.66 " fill="none" id="CatalogServices-to-ICatalogRepos-1" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="2362.2,810.61,2354.1149,804.9858,2357.2896,809.6679,2352.6075,812.8425,2362.2,810.61" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="173" x="2244" y="764.4951">1.9 Persist Catalog Biz Model</text><!--MD5=[7a306315d77cc16768c1cb7376f8b927]
-link CatalogServices to Catalog Biz Models--><path d="M2357.2,695.21 C2257.77,697.11 2085.57,706.77 2043,750 C2032.21,760.96 2029.75,777.92 2030.09,792.52 " fill="none" id="CatalogServices-to-Catalog Biz Models" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="2030.33,797.78,2033.9148,788.6067,2030.1017,792.7852,2025.9232,788.9721,2030.33,797.78" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="183" x="2044" y="764.4951">1.8 Process product reservation</text><!--MD5=[16ee052b64cd4390355d9c49b691704b]
-link CatalogServices to ICatalogEventBusClient--><path d="M2500.64,715.65 C2530.8,725.06 2566.01,737 2597,750 C2628.64,763.28 2662.92,781.04 2689.27,795.48 " fill="none" id="CatalogServices-to-ICatalogEventBusClient" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="2693.76,797.95,2687.7958,790.1124,2689.3771,795.5437,2683.9458,797.125,2693.76,797.95" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="288" x="2637" y="764.4951">1.10 Publish ProductReservationSuccessful Event</text><!--MD5=[933cb4272a45735601cd14d6f919c0fc]
-link CatalogRepos to ICatalogRepos--><path d="M3019.28,718.35 C2997.55,735.24 2965.77,756.95 2934,768 C2802.42,813.76 2760.51,783.09 2622,798 C2587.13,801.75 2548.76,806.25 2515.49,810.27 " fill="none" id="CatalogRepos-to-ICatalogRepos" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="none" points="2516.2,817.23,2495.5,812.7,2514.51,803.33,2516.2,817.23" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[87df5f007243cbe70cddd58132d22f14]
-link CatalogEventBusClient to ICatalogEventBusClient--><path d="M3191.62,718.01 C3172.45,726.46 3150,735.53 3129,742 C3036.22,770.6 2927.91,791.41 2848.19,804.47 " fill="none" id="CatalogEventBusClient-to-ICatalogEventBusClient" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="none" points="2849.17,811.4,2828.31,807.67,2846.95,797.58,2849.17,811.4" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[5b3b1433e68c5a51bd9aacd1c1170898]
-link Client to AuthMiddleware--><path d="M695,199.06 C695,220.76 695,253.3 695,276.59 " fill="none" id="Client-to-AuthMiddleware" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="695,281.7,699,272.7,695,276.7,691,272.7,695,281.7" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[cb3b7c832aa26ca3217664724b0d5eca]
-link AuthMiddleware to OrderAPIs--><path d="M695,330.06 C695,373.5 695,467.35 695,514.6 " fill="none" id="AuthMiddleware-to-OrderAPIs" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="695,519.85,699,510.85,695,514.85,691,510.85,695,519.85" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="141" x="696" y="376.4951">1: Create Order Request</text><!--MD5=[1f8271d0689ffc2e597d613a937fdde5]
-link Producer to Server--><path d="M3517.78,90.22 C3517.63,106.48 3517.43,128.32 3517.27,145.62 " fill="none" id="Producer-to-Server" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="3517.22,150.83,3521.297,141.8646,3517.2629,145.8302,3513.2973,141.796,3517.22,150.83" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[2ae1d77ce868e217d4da6dc199c4db90]
-link Server to Consumer--><path d="M3516.46,199.06 C3515.96,220.76 3515.2,253.3 3514.66,276.59 " fill="none" id="Server-to-Consumer" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="3514.54,281.7,3518.7446,272.7938,3514.6543,276.7013,3510.7467,272.6109,3514.54,281.7" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[30a633f6f8150daf653bfd13eaa0c548]
-link Producer to OrderEventBusClient--><path d="M3560.67,90.08 C3588.62,108.62 3620,137.56 3620,174 C3620,174 3620,174 3620,545 C3620,615.69 3058.56,613.67 2988,618 C2929.77,621.57 1995.32,615.18 1938,626 C1900.36,633.11 1860.33,647.85 1828.07,661.7 " fill="none" id="Producer-to-OrderEventBusClient" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="none" points="1830.68,668.2,1809.56,669.91,1825.01,655.4,1830.68,668.2" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[8852d9b3a5c8c70ca2ddaad2a211c52c]
-link Consumer to OrderEvents--><path d="M3477.49,330.23 C3460.92,339.49 3440.66,349.1 3421,354 C3379.05,364.45 3075.17,359.77 3032,362 C2191.46,405.35 1173.14,508.49 908.39,536.1 " fill="none" id="Consumer-to-OrderEvents" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="903.41,536.62,912.7738,539.6727,908.3835,536.1055,911.9506,531.7151,903.41,536.62" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="296" x="3033" y="376.4951">1.11 Trigger ProductReservationSuccessful Handler</text><!--MD5=[e4f313e55f7d5a619902ad2885938c4a]
-link Producer to CatalogEventBusClient--><path d="M3567.11,75.64 C3618.26,87.79 3691,115.38 3691,174 C3691,174 3691,174 3691,545 C3691,583.11 3677.45,596.46 3646,618 C3599.36,649.94 3456.06,671 3352.92,682.45 " fill="none" id="Producer-to-CatalogEventBusClient" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="none" points="3353.5,689.43,3332.87,684.62,3352,675.51,3353.5,689.43" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[83b6428c8f457e57e42c8bc8b926fdda]
-link Consumer to CatalogEvents--><path d="M3474.83,330.04 C3458.64,338.7 3439.37,347.91 3421,354 C3401.3,360.53 3394.53,354.99 3375,362 C3265.75,401.24 3150.43,476.69 3093.38,516.66 " fill="none" id="Consumer-to-CatalogEvents" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="3089.04,519.71,3098.7034,517.8076,3093.1308,516.835,3094.1034,511.2624,3089.04,519.71" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="217" x="3376" y="376.4951">1.5 Trigger DraftOrderCreated Handler</text><!--MD5=[8423f7317cbc30636c1f0f209304bcdb]
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="941px" preserveAspectRatio="none" style="width:3698px;height:941px;background:#FFFFFF;" version="1.1" viewBox="0 0 3698 941" width="3698px" zoomAndPan="magnify">
+    <defs>
+        <filter height="300%" id="fmstbx7nvcbbu" width="300%" x="-1" y="-1">
+            <feGaussianBlur result="blurOut" stdDeviation="2.0"/>
+            <feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/>
+            <feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/>
+            <feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/>
+        </filter>
+    </defs>
+    <g>        <!--MD5=[923f710a89f3b458ee8f605f2cdbb4a5]
+cluster ChickenCommerceHost-->
+        <polygon fill="#FFFFFF" filter="url(#fmstbx7nvcbbu)" points="16,246,186,246,193,269.6094,3421,269.6094,3421,934,16,934,16,246" style="stroke:#000000;stroke-width:1.5;"/>
+        <line style="stroke:#000000;stroke-width:1.5;" x1="16" x2="193" y1="269.6094" y2="269.6094"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="164" x="20" y="262.5332">ChickenCommerceHost</text>        <!--MD5=[b81d475bff8382f6de843883a7fc380d]
+cluster Modules-->
+        <polygon fill="#FFFFFF" filter="url(#fmstbx7nvcbbu)" points="40,396,107,396,114,419.6094,3397,419.6094,3397,910,40,910,40,396" style="stroke:#000000;stroke-width:1.5;"/>
+        <line style="stroke:#000000;stroke-width:1.5;" x1="40" x2="114" y1="419.6094" y2="419.6094"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="61" x="44" y="412.5332">Modules</text>        <!--MD5=[4523f918a499262345e8d765b0fe948b]
+cluster Order-->
+        <polygon fill="#FFFFFF" filter="url(#fmstbx7nvcbbu)" points="64,440,111,440,118,463.6094,1890,463.6094,1890,886,64,886,64,440" style="stroke:#000000;stroke-width:1.5;"/>
+        <line style="stroke:#000000;stroke-width:1.5;" x1="64" x2="118" y1="463.6094" y2="463.6094"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="41" x="68" y="456.5332">Order</text>        <!--MD5=[c7f138f12a0fef7743e08f362e36696c]
+cluster OrderInfra-->
+        <polygon fill="#FFFFFF" filter="url(#fmstbx7nvcbbu)" points="1507,634,1586,634,1593,657.6094,1866,657.6094,1866,734,1507,734,1507,634" style="stroke:#000000;stroke-width:1.5;"/>
+        <line style="stroke:#000000;stroke-width:1.5;" x1="1507" x2="1593" y1="657.6094" y2="657.6094"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="73" x="1511" y="650.5332">OrderInfra</text>        <!--MD5=[2c47f9ea3ffafb951b49e9090d8c5d8f]
+cluster OrderEndpoints-->
+        <polygon fill="#FFFFFF" filter="url(#fmstbx7nvcbbu)" points="626,484,744,484,751,507.6094,919,507.6094,919,584,626,584,626,484" style="stroke:#000000;stroke-width:1.5;"/>
+        <line style="stroke:#000000;stroke-width:1.5;" x1="626" x2="751" y1="507.6094" y2="507.6094"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="112" x="630" y="500.5332">OrderEndpoints</text>        <!--MD5=[b04e4e33d92e4d77a71ab7358942f877]
+cluster OrderCore-->
+        <polygon fill="#FFFFFF" filter="url(#fmstbx7nvcbbu)" points="88,634,169,634,176,657.6094,1483,657.6094,1483,862,88,862,88,634" style="stroke:#000000;stroke-width:1.5;"/>
+        <line style="stroke:#000000;stroke-width:1.5;" x1="88" x2="176" y1="657.6094" y2="657.6094"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="75" x="92" y="650.5332">OrderCore</text>        <!--MD5=[efb0108df68c95f86fb378679ab58bc2]
+cluster Catalog-->
+        <polygon fill="#FFFFFF" filter="url(#fmstbx7nvcbbu)" points="1914,440,1973,440,1980,463.6094,3373,463.6094,3373,886,1914,886,1914,440" style="stroke:#000000;stroke-width:1.5;"/>
+        <line style="stroke:#000000;stroke-width:1.5;" x1="1914" x2="1980" y1="463.6094" y2="463.6094"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="53" x="1918" y="456.5332">Catalog</text>        <!--MD5=[abb54f61f809c143747317bc8625fab3]
+cluster CatalogInfra-->
+        <polygon fill="#FFFFFF" filter="url(#fmstbx7nvcbbu)" points="2966,634,3057,634,3064,657.6094,3349,657.6094,3349,734,2966,734,2966,634" style="stroke:#000000;stroke-width:1.5;"/>
+        <line style="stroke:#000000;stroke-width:1.5;" x1="2966" x2="3064" y1="657.6094" y2="657.6094"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="85" x="2970" y="650.5332">CatalogInfra</text>        <!--MD5=[9dc4d805a77686ce7747ba89562d6809]
+cluster CatalogEndpoints-->
+        <polygon fill="#FFFFFF" filter="url(#fmstbx7nvcbbu)" points="2975,484,3105,484,3112,507.6094,3139,507.6094,3139,584,2975,584,2975,484" style="stroke:#000000;stroke-width:1.5;"/>
+        <line style="stroke:#000000;stroke-width:1.5;" x1="2975" x2="3112" y1="507.6094" y2="507.6094"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="124" x="2979" y="500.5332">CatalogEndpoints</text>        <!--MD5=[9543729be9e0631994edf1c85b499436]
+cluster CatalogCore-->
+        <polygon fill="#FFFFFF" filter="url(#fmstbx7nvcbbu)" points="1938,634,2031,634,2038,657.6094,2942,657.6094,2942,862,1938,862,1938,634" style="stroke:#000000;stroke-width:1.5;"/>
+        <line style="stroke:#000000;stroke-width:1.5;" x1="1938" x2="2038" y1="657.6094" y2="657.6094"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="87" x="1942" y="650.5332">CatalogCore</text>        <!--MD5=[caf7b33d2456239656b9b59659f5698e]
+cluster Kafka-->
+        <polygon fill="#FFFFFF" filter="url(#fmstbx7nvcbbu)" points="3445,6,3490,6,3497,29.6094,3583,29.6094,3583,346,3445,346,3445,6" style="stroke:#000000;stroke-width:1.5;"/>
+        <line style="stroke:#000000;stroke-width:1.5;" x1="3445" x2="3497" y1="29.6094" y2="29.6094"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="39" x="3449" y="22.5332">Kafka</text>        <!--MD5=[27a444fffe1391022728d8b723c73823]
+entity AuthMiddleware-->
+        <rect fill="#FEFECE" filter="url(#fmstbx7nvcbbu)" height="47.6094" style="stroke:#A80036;stroke-width:1.5;" width="140" x="625" y="282"/>
+        <rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="745" y="287"/>
+        <rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="743" y="289"/>
+        <rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="743" y="293"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="100" x="640" y="316.5332">AuthMiddleware</text>        <!--MD5=[d2f599a2583f171de52dfbb620bcbad6]
+entity OrderRepo-->
+        <rect fill="#FEFECE" filter="url(#fmstbx7nvcbbu)" height="47.6094" style="stroke:#A80036;stroke-width:1.5;" width="118" x="1523" y="670"/>
+        <rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="1621" y="675"/>
+        <rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="1619" y="677"/>
+        <rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="1619" y="681"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="78" x="1538" y="704.5332">OrderRepo</text>        <!--MD5=[c405f2012a5492d837da26ca2acb280e]
+entity OrderEventBusClient-->
+        <rect fill="#FEFECE" filter="url(#fmstbx7nvcbbu)" height="47.6094" style="stroke:#A80036;stroke-width:1.5;" width="173" x="1676.5" y="670"/>
+        <rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="1829.5" y="675"/>
+        <rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="1827.5" y="677"/>
+        <rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="1827.5" y="681"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="133" x="1691.5" y="704.5332">OrderEventBusClient</text>        <!--MD5=[871e1cae263001d20152bde91feae972]
+entity OrderAPIs-->
+        <rect fill="#FFFF00" filter="url(#fmstbx7nvcbbu)" height="47.6094" style="stroke:#A80036;stroke-width:1.5;" width="105" x="642.5" y="520"/>
+        <rect fill="#FFFF00" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="727.5" y="525"/>
+        <rect fill="#FFFF00" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="725.5" y="527"/>
+        <rect fill="#FFFF00" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="725.5" y="531"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="65" x="657.5" y="554.5332">OrderAPIs</text>        <!--MD5=[0bd74e357e617e81c71f80b168b00a0e]
+entity OrderEvents-->
+        <rect fill="#FFFF00" filter="url(#fmstbx7nvcbbu)" height="47.6094" style="stroke:#A80036;stroke-width:1.5;" width="120" x="783" y="520"/>
+        <rect fill="#FFFF00" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="883" y="525"/>
+        <rect fill="#FFFF00" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="881" y="527"/>
+        <rect fill="#FFFF00" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="881" y="531"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="80" x="798" y="554.5332">OrderEvents</text>        <!--MD5=[c6fcfa4e7e5dafd891b987f00a6468df]
+entity OrderService-->
+        <rect fill="#FFFF00" filter="url(#fmstbx7nvcbbu)" height="47.6094" style="stroke:#A80036;stroke-width:1.5;" width="131" x="603.5" y="670"/>
+        <rect fill="#FFFF00" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="714.5" y="675"/>
+        <rect fill="#FFFF00" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="712.5" y="677"/>
+        <rect fill="#FFFF00" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="712.5" y="681"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="91" x="618.5" y="704.5332">OrderService</text>        <!--MD5=[a26fa793c33ca57a07de975e4fb464e3]
+entity IOrderEventBusClient-->
+        <rect fill="#FEFECE" filter="url(#fmstbx7nvcbbu)" height="47.6094" style="stroke:#A80036;stroke-width:1.5;" width="176" x="1008" y="798"/>
+        <rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="1164" y="803"/>
+        <rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="1162" y="805"/>
+        <rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="1162" y="809"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="136" x="1023" y="832.5332">IOrderEventBusClient</text>        <!--MD5=[13af26407847531c7a1c969418a99b73]
+entity Order Biz Model-->
+        <rect fill="#FEFECE" filter="url(#fmstbx7nvcbbu)" height="47.6094" style="stroke:#A80036;stroke-width:1.5;" width="148" x="104" y="798"/>
+        <rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="232" y="803"/>
+        <rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="230" y="805"/>
+        <rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="230" y="809"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="108" x="119" y="832.5332">Order Biz Model</text>        <!--MD5=[6f8eeae53ecb8327cd703d311559b51c]
+entity IOrderRepo-->
+        <rect fill="#FEFECE" filter="url(#fmstbx7nvcbbu)" height="47.6094" style="stroke:#A80036;stroke-width:1.5;" width="121" x="522.5" y="798"/>
+        <rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="623.5" y="803"/>
+        <rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="621.5" y="805"/>
+        <rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="621.5" y="809"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="81" x="537.5" y="832.5332">IOrderRepo</text>        <!--MD5=[228c78b0718cb42cbc417cff3f1c3d91]
+entity CatalogRepo-->
+        <rect fill="#FEFECE" filter="url(#fmstbx7nvcbbu)" height="47.6094" style="stroke:#A80036;stroke-width:1.5;" width="130" x="2982" y="670"/>
+        <rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="3092" y="675"/>
+        <rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="3090" y="677"/>
+        <rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="3090" y="681"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="90" x="2997" y="704.5332">CatalogRepo</text>        <!--MD5=[04ad52c0e8ca935c03d89bc5c2365383]
+entity CatalogEventBusClient-->
+        <rect fill="#FEFECE" filter="url(#fmstbx7nvcbbu)" height="47.6094" style="stroke:#A80036;stroke-width:1.5;" width="185" x="3147.5" y="670"/>
+        <rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="3312.5" y="675"/>
+        <rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="3310.5" y="677"/>
+        <rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="3310.5" y="681"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="145" x="3162.5" y="704.5332">CatalogEventBusClient</text>        <!--MD5=[98c039e122b183fa7d6dae4a2642f97e]
+entity CatalogEvents-->
+        <rect fill="#FFFF00" filter="url(#fmstbx7nvcbbu)" height="47.6094" style="stroke:#A80036;stroke-width:1.5;" width="132" x="2991" y="520"/>
+        <rect fill="#FFFF00" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="3103" y="525"/>
+        <rect fill="#FFFF00" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="3101" y="527"/>
+        <rect fill="#FFFF00" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="3101" y="531"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="92" x="3006" y="554.5332">CatalogEvents</text>        <!--MD5=[41016a47f335142c1982a47d640d34da]
+entity CatalogService-->
+        <rect fill="#FFFF00" filter="url(#fmstbx7nvcbbu)" height="47.6094" style="stroke:#A80036;stroke-width:1.5;" width="143" x="2357.5" y="670"/>
+        <rect fill="#FFFF00" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="2480.5" y="675"/>
+        <rect fill="#FFFF00" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="2478.5" y="677"/>
+        <rect fill="#FFFF00" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="2478.5" y="681"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="103" x="2372.5" y="704.5332">CatalogService</text>        <!--MD5=[119a2027f0a8d5e5a52960d8266ccc5c]
+entity ICatalogEventBusClient-->
+        <rect fill="#FEFECE" filter="url(#fmstbx7nvcbbu)" height="47.6094" style="stroke:#A80036;stroke-width:1.5;" width="188" x="2640" y="798"/>
+        <rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="2808" y="803"/>
+        <rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="2806" y="805"/>
+        <rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="2806" y="809"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="148" x="2655" y="832.5332">ICatalogEventBusClient</text>        <!--MD5=[5aa737370f9bf029b1b2dec94bbaec11]
+entity Catalog Biz Model-->
+        <rect fill="#FEFECE" filter="url(#fmstbx7nvcbbu)" height="47.6094" style="stroke:#A80036;stroke-width:1.5;" width="160" x="1954" y="798"/>
+        <rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="2094" y="803"/>
+        <rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="2092" y="805"/>
+        <rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="2092" y="809"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="120" x="1969" y="832.5332">Catalog Biz Model</text>        <!--MD5=[650a5c47565edaaae125ccf41a45a321]
+entity ICatalogRepo-->
+        <rect fill="#FEFECE" filter="url(#fmstbx7nvcbbu)" height="47.6094" style="stroke:#A80036;stroke-width:1.5;" width="133" x="2362.5" y="798"/>
+        <rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="2475.5" y="803"/>
+        <rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="2473.5" y="805"/>
+        <rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="2473.5" y="809"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="93" x="2377.5" y="832.5332">ICatalogRepo</text>        <!--MD5=[034cc5895b2ef7c10223406b60669bb6]
+entity Producer-->
+        <rect fill="#FEFECE" filter="url(#fmstbx7nvcbbu)" height="47.6094" style="stroke:#A80036;stroke-width:1.5;" width="98" x="3469" y="42"/>
+        <rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="3547" y="47"/>
+        <rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="3545" y="49"/>
+        <rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="3545" y="53"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="58" x="3484" y="76.5332">Producer</text>        <!--MD5=[4d65782647d64e21a92b473b2db819be]
+entity Consumer-->
+        <rect fill="#FEFECE" filter="url(#fmstbx7nvcbbu)" height="47.6094" style="stroke:#A80036;stroke-width:1.5;" width="105" x="3461.5" y="282"/>
+        <rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="3546.5" y="287"/>
+        <rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="3544.5" y="289"/>
+        <rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="3544.5" y="293"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="65" x="3476.5" y="316.5332">Consumer</text>        <!--MD5=[b1435b213846e3ddcd1e6c1cd6b83b9a]
+entity Server-->
+        <rect fill="#FEFECE" filter="url(#fmstbx7nvcbbu)" height="47.6094" style="stroke:#A80036;stroke-width:1.5;" width="82" x="3476" y="151"/>
+        <rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="3538" y="156"/>
+        <rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="3536" y="158"/>
+        <rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="3536" y="162"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="42" x="3491" y="185.5332">Server</text>        <!--MD5=[0ba5ee7700168656dc1b457c6fe9fdac]
+entity Client-->
+        <rect fill="#FEFECE" filter="url(#fmstbx7nvcbbu)" height="47.6094" style="stroke:#A80036;stroke-width:1.5;" width="76" x="657" y="151"/>
+        <rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="713" y="156"/>
+        <rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="711" y="158"/>
+        <rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="711" y="162"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="36" x="672" y="185.5332">Client</text>        <!--MD5=[3b9601505a43ff0caf475da55201420d]
+link OrderAPIs to OrderService-->
+        <path d="M679.63,568.08 C674.19,577.55 668.75,588.89 666,600 C660.75,621.21 661.89,645.98 664.13,664.62 " fill="none" id="OrderAPIs-to-OrderService" style="stroke:#A80036;stroke-width:1.0;"/>
+        <polygon fill="#A80036" points="664.78,669.7,667.5893,660.2603,664.137,664.7415,659.6558,661.2892,664.78,669.7" style="stroke:#A80036;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="132" x="667" y="614.4951">1.1 Invoke CreateOrder</text>        <!--MD5=[7a53c101abefa56b4ed83be3d9fa1c16]
+link OrderService to Order Biz Model-->
+        <path d="M603.06,698.39 C479.48,705.34 222.75,722.9 193,750 C181.39,760.58 177.53,777.7 176.62,792.47 " fill="none" id="OrderService-to-Order Biz Model" style="stroke:#A80036;stroke-width:1.0;"/>
+        <polygon fill="#A80036" points="176.42,797.79,180.7765,788.9571,176.6198,792.794,172.7829,788.6373,176.42,797.79" style="stroke:#A80036;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="106" x="194" y="764.4951">1.2 Init Draft Order</text>        <!--MD5=[79b089142a456ad7b7ea80de94929c98]
+link OrderService to IOrderRepo-->
+        <path d="M603.11,697.36 C564.62,702.55 518.87,716.11 494,750 C480.84,767.93 496.44,783.81 518.05,795.98 " fill="none" id="OrderService-to-IOrderRepo" style="stroke:#A80036;stroke-width:1.0;"/>
+        <polygon fill="#A80036" points="522.45,798.37,516.4448,790.5638,518.0545,795.9867,512.6316,797.5965,522.45,798.37" style="stroke:#A80036;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="130" x="495" y="764.4951">1.3 Persist Draft Order</text>        <!--MD5=[79b089142a456ad7b7ea80de94929c98]
+link OrderService to IOrderRepo-->
+        <path d="M658.36,718.17 C651.17,732.94 641,752.2 630,768 C623.78,776.93 616.24,786.03 609.04,794.1 " fill="none" id="OrderService-to-IOrderRepo-1" style="stroke:#A80036;stroke-width:1.0;"/>
+        <polygon fill="#A80036" points="605.54,797.98,614.55,794.0026,608.8998,794.2771,608.6253,788.6269,605.54,797.98" style="stroke:#A80036;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="134" x="642" y="764.4951">1.13 Fetch Given Order</text>        <!--MD5=[79b089142a456ad7b7ea80de94929c98]
+link OrderService to IOrderRepo-->
+        <path d="M603.39,695.33 C510.76,697.35 348.8,707.1 312,750 C306.79,756.07 306.91,761.82 312,768 C337.52,798.99 445.64,812.12 517.36,817.49 " fill="none" id="OrderService-to-IOrderRepo-2" style="stroke:#A80036;stroke-width:1.0;"/>
+        <polygon fill="#A80036" points="522.45,817.86,513.772,813.2024,517.4638,817.4885,513.1777,821.1803,522.45,817.86" style="stroke:#A80036;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="168" x="313" y="764.4951">1.15 Persist Confirmed Order</text>        <!--MD5=[916b8dcaec679ae716cd2d22a2558d64]
+link OrderService to IOrderEventBusClient-->
+        <path d="M716.54,718.01 C750.78,733.85 798.43,754.4 842,768 C894.38,784.35 954.43,797.14 1002.98,806.06 " fill="none" id="OrderService-to-IOrderEventBusClient" style="stroke:#A80036;stroke-width:1.0;"/>
+        <polygon fill="#A80036" points="1007.94,806.96,999.8078,801.4041,1003.0218,806.0593,998.3667,809.2733,1007.94,806.96" style="stroke:#A80036;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="209" x="843" y="764.4951">1.4 Publish DraftOrderCreated Event</text>        <!--MD5=[916b8dcaec679ae716cd2d22a2558d64]
+link OrderService to IOrderEventBusClient-->
+        <path d="M734.75,697.31 C831.45,701.85 1006.07,714.8 1057,750 C1071.66,760.13 1081.36,777.62 1087.42,792.7 " fill="none" id="OrderService-to-IOrderEventBusClient-1" style="stroke:#A80036;stroke-width:1.0;"/>
+        <polygon fill="#A80036" points="1089.34,797.71,1089.8627,787.875,1087.5547,793.0396,1082.3901,790.7315,1089.34,797.71" style="stroke:#A80036;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="369" x="1075" y="764.4951">1.14 Process Order Status Transitioning from Draft to Confirmed</text>        <!--MD5=[f1193b8fc8aced4053df7939435d852f]
+link OrderEvents to OrderService-->
+        <path d="M834.64,568.22 C828.15,583.76 817.91,603.86 804,618 C783.56,638.78 756.12,655.44 731.33,667.73 " fill="none" id="OrderEvents-to-OrderService" style="stroke:#A80036;stroke-width:1.0;"/>
+        <polygon fill="#A80036" points="726.73,669.97,736.5728,669.6236,731.2248,667.7799,733.0685,662.4319,726.73,669.97" style="stroke:#A80036;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="217" x="819" y="614.4951">1.12 Invoke SetOrderStatusConfirmed</text>        <!--MD5=[bd359d8aad018210db3cf8d49946d231]
+link OrderRepo to IOrderRepo-->
+        <path d="M1550.71,718.12 C1525.66,735.24 1488.9,757.37 1453,768 C1443.59,770.79 878.04,803.87 663.94,816.31 " fill="none" id="OrderRepo-to-IOrderRepo" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="none" points="664.12,823.31,643.75,817.48,663.31,809.33,664.12,823.31" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[e1a6c8d4c220a8866da93e4443f20708]
+link OrderEventBusClient to IOrderEventBusClient-->
+        <path d="M1717.05,718.1 C1698.98,726.51 1677.84,735.53 1658,742 C1505.51,791.76 1319.69,810.18 1204.6,817 " fill="none" id="OrderEventBusClient-to-IOrderEventBusClient" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="none" points="1204.66,824,1184.31,818.12,1203.89,810.03,1204.66,824" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[8fbe6f0ddc0baa8c3140c92aed871b1f]
+link CatalogEvents to CatalogService-->
+        <path d="M2990.98,560.56 C2873.88,588.16 2630.45,645.52 2505.95,674.86 " fill="none" id="CatalogEvents-to-CatalogService" style="stroke:#A80036;stroke-width:1.0;"/>
+        <polygon fill="#A80036" points="2500.85,676.07,2510.5269,677.9023,2505.7171,674.9248,2508.6946,670.115,2500.85,676.07" style="stroke:#A80036;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="160" x="2819" y="614.4951">1.6 Invoke ReserveProducts</text>        <!--MD5=[22bba8f966e6480ac0e5be7b4d51ff4e]
+link CatalogService to ICatalogRepo-->
+        <path d="M2427.24,718.01 C2426.34,732.38 2425.53,751.26 2426,768 C2426.22,775.93 2426.64,784.53 2427.09,792.44 " fill="none" id="CatalogService-to-ICatalogRepo" style="stroke:#A80036;stroke-width:1.0;"/>
+        <polygon fill="#A80036" points="2427.4,797.79,2430.8785,788.5759,2427.1139,792.7982,2422.8916,789.0336,2427.4,797.79" style="stroke:#A80036;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="165" x="2427" y="764.4951">1.7 Fetch Catalog Biz Model</text>        <!--MD5=[22bba8f966e6480ac0e5be7b4d51ff4e]
+link CatalogService to ICatalogRepo-->
+        <path d="M2357.27,699.28 C2291.59,706.04 2209.35,723.42 2243,768 C2257.1,786.68 2311.01,800.73 2357.19,809.66 " fill="none" id="CatalogService-to-ICatalogRepo-1" style="stroke:#A80036;stroke-width:1.0;"/>
+        <polygon fill="#A80036" points="2362.2,810.61,2354.1149,804.9858,2357.2896,809.6679,2352.6075,812.8425,2362.2,810.61" style="stroke:#A80036;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="173" x="2244" y="764.4951">1.9 Persist Catalog Biz Model</text>        <!--MD5=[7a306315d77cc16768c1cb7376f8b927]
+link CatalogService to Catalog Biz Model-->
+        <path d="M2357.2,695.21 C2257.77,697.11 2085.57,706.77 2043,750 C2032.21,760.96 2029.75,777.92 2030.09,792.52 " fill="none" id="CatalogService-to-Catalog Biz Model" style="stroke:#A80036;stroke-width:1.0;"/>
+        <polygon fill="#A80036" points="2030.33,797.78,2033.9148,788.6067,2030.1017,792.7852,2025.9232,788.9721,2030.33,797.78" style="stroke:#A80036;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="183" x="2044" y="764.4951">1.8 Process product reservation</text>        <!--MD5=[16ee052b64cd4390355d9c49b691704b]
+link CatalogService to ICatalogEventBusClient-->
+        <path d="M2500.64,715.65 C2530.8,725.06 2566.01,737 2597,750 C2628.64,763.28 2662.92,781.04 2689.27,795.48 " fill="none" id="CatalogService-to-ICatalogEventBusClient" style="stroke:#A80036;stroke-width:1.0;"/>
+        <polygon fill="#A80036" points="2693.76,797.95,2687.7958,790.1124,2689.3771,795.5437,2683.9458,797.125,2693.76,797.95" style="stroke:#A80036;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="288" x="2637" y="764.4951">1.10 Publish ProductReservationSuccessful Event</text>        <!--MD5=[933cb4272a45735601cd14d6f919c0fc]
+link CatalogRepo to ICatalogRepo-->
+        <path d="M3019.28,718.35 C2997.55,735.24 2965.77,756.95 2934,768 C2802.42,813.76 2760.51,783.09 2622,798 C2587.13,801.75 2548.76,806.25 2515.49,810.27 " fill="none" id="CatalogRepo-to-ICatalogRepo" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="none" points="2516.2,817.23,2495.5,812.7,2514.51,803.33,2516.2,817.23" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[87df5f007243cbe70cddd58132d22f14]
+link CatalogEventBusClient to ICatalogEventBusClient-->
+        <path d="M3191.62,718.01 C3172.45,726.46 3150,735.53 3129,742 C3036.22,770.6 2927.91,791.41 2848.19,804.47 " fill="none" id="CatalogEventBusClient-to-ICatalogEventBusClient" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="none" points="2849.17,811.4,2828.31,807.67,2846.95,797.58,2849.17,811.4" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[5b3b1433e68c5a51bd9aacd1c1170898]
+link Client to AuthMiddleware-->
+        <path d="M695,199.06 C695,220.76 695,253.3 695,276.59 " fill="none" id="Client-to-AuthMiddleware" style="stroke:#A80036;stroke-width:1.0;"/>
+        <polygon fill="#A80036" points="695,281.7,699,272.7,695,276.7,691,272.7,695,281.7" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[cb3b7c832aa26ca3217664724b0d5eca]
+link AuthMiddleware to OrderAPIs-->
+        <path d="M695,330.06 C695,373.5 695,467.35 695,514.6 " fill="none" id="AuthMiddleware-to-OrderAPIs" style="stroke:#A80036;stroke-width:1.0;"/>
+        <polygon fill="#A80036" points="695,519.85,699,510.85,695,514.85,691,510.85,695,519.85" style="stroke:#A80036;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="141" x="696" y="376.4951">1: Create Order Request</text>        <!--MD5=[1f8271d0689ffc2e597d613a937fdde5]
+link Producer to Server-->
+        <path d="M3517.78,90.22 C3517.63,106.48 3517.43,128.32 3517.27,145.62 " fill="none" id="Producer-to-Server" style="stroke:#A80036;stroke-width:1.0;"/>
+        <polygon fill="#A80036" points="3517.22,150.83,3521.297,141.8646,3517.2629,145.8302,3513.2973,141.796,3517.22,150.83" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[2ae1d77ce868e217d4da6dc199c4db90]
+link Server to Consumer-->
+        <path d="M3516.46,199.06 C3515.96,220.76 3515.2,253.3 3514.66,276.59 " fill="none" id="Server-to-Consumer" style="stroke:#A80036;stroke-width:1.0;"/>
+        <polygon fill="#A80036" points="3514.54,281.7,3518.7446,272.7938,3514.6543,276.7013,3510.7467,272.6109,3514.54,281.7" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[30a633f6f8150daf653bfd13eaa0c548]
+link Producer to OrderEventBusClient-->
+        <path d="M3560.67,90.08 C3588.62,108.62 3620,137.56 3620,174 C3620,174 3620,174 3620,545 C3620,615.69 3058.56,613.67 2988,618 C2929.77,621.57 1995.32,615.18 1938,626 C1900.36,633.11 1860.33,647.85 1828.07,661.7 " fill="none" id="Producer-to-OrderEventBusClient" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="none" points="1830.68,668.2,1809.56,669.91,1825.01,655.4,1830.68,668.2" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[8852d9b3a5c8c70ca2ddaad2a211c52c]
+link Consumer to OrderEvents-->
+        <path d="M3477.49,330.23 C3460.92,339.49 3440.66,349.1 3421,354 C3379.05,364.45 3075.17,359.77 3032,362 C2191.46,405.35 1173.14,508.49 908.39,536.1 " fill="none" id="Consumer-to-OrderEvents" style="stroke:#A80036;stroke-width:1.0;"/>
+        <polygon fill="#A80036" points="903.41,536.62,912.7738,539.6727,908.3835,536.1055,911.9506,531.7151,903.41,536.62" style="stroke:#A80036;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="296" x="3033" y="376.4951">1.11 Trigger ProductReservationSuccessful Handler</text>        <!--MD5=[e4f313e55f7d5a619902ad2885938c4a]
+link Producer to CatalogEventBusClient-->
+        <path d="M3567.11,75.64 C3618.26,87.79 3691,115.38 3691,174 C3691,174 3691,174 3691,545 C3691,583.11 3677.45,596.46 3646,618 C3599.36,649.94 3456.06,671 3352.92,682.45 " fill="none" id="Producer-to-CatalogEventBusClient" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+        <polygon fill="none" points="3353.5,689.43,3332.87,684.62,3352,675.51,3353.5,689.43" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[83b6428c8f457e57e42c8bc8b926fdda]
+link Consumer to CatalogEvents-->
+        <path d="M3474.83,330.04 C3458.64,338.7 3439.37,347.91 3421,354 C3401.3,360.53 3394.53,354.99 3375,362 C3265.75,401.24 3150.43,476.69 3093.38,516.66 " fill="none" id="Consumer-to-CatalogEvents" style="stroke:#A80036;stroke-width:1.0;"/>
+        <polygon fill="#A80036" points="3089.04,519.71,3098.7034,517.8076,3093.1308,516.835,3094.1034,511.2624,3089.04,519.71" style="stroke:#A80036;stroke-width:1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="217" x="3376" y="376.4951">1.5 Trigger DraftOrderCreated Handler</text>        <!--MD5=[8423f7317cbc30636c1f0f209304bcdb]
 @startuml ChickenCommerce
 package ChickenCommerceHost {
 
@@ -65,7 +284,7 @@ package ChickenCommerceHost {
     package Order {
 
       package OrderInfra {
-        [OrderRepos]
+        [OrderRepo]
         [OrderEventBusClient]
       }
 
@@ -75,32 +294,32 @@ package ChickenCommerceHost {
       }
 
       package OrderCore {
-        [OrderServices] #Yellow
+        [OrderService] #Yellow
         [IOrderEventBusClient]
-        [Order Biz Models]
-        [IOrderRepos]
+        [Order Biz Model]
+        [IOrderRepo]
       }
 
-      [OrderAPIs] - -> [OrderServices] : 1.1 Invoke CreateOrder
-      [OrderServices] - -> [Order Biz Models] : 1.2 Init Draft Order
+      [OrderAPIs] - -> [OrderService] : 1.1 Invoke CreateOrder
+      [OrderService] - -> [Order Biz Model] : 1.2 Init Draft Order
 
-      [OrderServices] - -> [IOrderRepos] : 1.3 Persist Draft Order
-      [OrderServices] - -> [IOrderEventBusClient] : 1.4 Publish DraftOrderCreated Event
+      [OrderService] - -> [IOrderRepo] : 1.3 Persist Draft Order
+      [OrderService] - -> [IOrderEventBusClient] : 1.4 Publish DraftOrderCreated Event
 
-      [OrderEvents] - -> [OrderServices] : 1.12 Invoke SetOrderStatusConfirmed
+      [OrderEvents] - -> [OrderService] : 1.12 Invoke SetOrderStatusConfirmed
       
-      [OrderServices] - -> [IOrderRepos] : 1.13 Fetch Given Order
-      [OrderServices] - -> [IOrderEventBusClient] : 1.14 Process Order Status Transitioning from Draft to Confirmed  
-      [OrderServices] - -> [IOrderRepos] : 1.15 Persist Confirmed Order
+      [OrderService] - -> [IOrderRepo] : 1.13 Fetch Given Order
+      [OrderService] - -> [IOrderEventBusClient] : 1.14 Process Order Status Transitioning from Draft to Confirmed  
+      [OrderService] - -> [IOrderRepo] : 1.15 Persist Confirmed Order
 
-      [OrderRepos] ..|> [IOrderRepos]
+      [OrderRepo] ..|> [IOrderRepo]
       [OrderEventBusClient] ..|> [IOrderEventBusClient]
     }
 
     package Catalog {
 
       package CatalogInfra {
-        [CatalogRepos]
+        [CatalogRepo]
         [CatalogEventBusClient]
       }
 
@@ -109,20 +328,20 @@ package ChickenCommerceHost {
       }
 
       package CatalogCore {
-        [CatalogServices] #Yellow
+        [CatalogService] #Yellow
         [ICatalogEventBusClient]
-        [Catalog Biz Models]
-        [ICatalogRepos]
+        [Catalog Biz Model]
+        [ICatalogRepo]
       }
 
-      [CatalogEvents] - -> [CatalogServices] : 1.6 Invoke ReserveProducts
+      [CatalogEvents] - -> [CatalogService] : 1.6 Invoke ReserveProducts
 
-      [CatalogServices] - -> [ICatalogRepos] : 1.7 Fetch Catalog Biz Model
-      [CatalogServices] - -> [Catalog Biz Models] : 1.8 Process product reservation
-      [CatalogServices] - -> [ICatalogRepos] : 1.9 Persist Catalog Biz Model
-      [CatalogServices] - -> [ICatalogEventBusClient] : 1.10 Publish ProductReservationSuccessful Event
+      [CatalogService] - -> [ICatalogRepo] : 1.7 Fetch Catalog Biz Model
+      [CatalogService] - -> [Catalog Biz Model] : 1.8 Process product reservation
+      [CatalogService] - -> [ICatalogRepo] : 1.9 Persist Catalog Biz Model
+      [CatalogService] - -> [ICatalogEventBusClient] : 1.10 Publish ProductReservationSuccessful Event
 
-      [CatalogRepos] ..|> [ICatalogRepos]
+      [CatalogRepo] ..|> [ICatalogRepo]
       [CatalogEventBusClient] ..|> [ICatalogEventBusClient]
     }
 
@@ -159,4 +378,5 @@ JVM: Java HotSpot(TM) 64-Bit Server VM
 Default Encoding: Cp1252
 Language: en
 Country: US
---></g></svg>
+-->    </g>
+</svg>

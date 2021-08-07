@@ -14,7 +14,7 @@ package ChickenCommerceHost {
     package Order {
 
       package OrderInfra {
-        [OrderRepos]
+        [OrderRepo]
         [OrderEventBusClient]
       }
 
@@ -24,35 +24,35 @@ package ChickenCommerceHost {
       }
 
       package OrderCore {
-        [IOrderServices] #Yellow
-        [OrderServices]
+        [IOrderService] #Yellow
+        [OrderService]
         [IOrderEventBusClient]
-        [Order Biz Models]
-        [IOrderRepos]
+        [Order Biz Model]
+        [IOrderRepo]
       }
 
-      [OrderServices] ..|> [IOrderServices]
+      [OrderService] ..|> [IOrderService]
 
-      [OrderAPIs] --> [IOrderServices] : 1.1 Invoke CreateOrder
-      [IOrderServices] --> [Order Biz Models] : 1.2 Init Draft Order
+      [OrderAPIs] --> [IOrderService] : 1.1 Invoke CreateOrder
+      [IOrderService] --> [Order Biz Model] : 1.2 Init Draft Order
 
-      [IOrderServices] --> [IOrderRepos] : 1.3 Persist Draft Order
-      [IOrderServices] --> [IOrderEventBusClient] : 1.4 Publish DraftOrderCreated Event
+      [IOrderService] --> [IOrderRepo] : 1.3 Persist Draft Order
+      [IOrderService] --> [IOrderEventBusClient] : 1.4 Publish DraftOrderCreated Event
 
-      [OrderEvents] --> [IOrderServices] : 1.12 Invoke SetOrderStatusConfirmed
+      [OrderEvents] --> [IOrderService] : 1.12 Invoke SetOrderStatusConfirmed
       
-      [IOrderServices] --> [IOrderRepos] : 1.13 Fetch Given Order
-      [IOrderServices] --> [IOrderEventBusClient] : 1.14 Process Order Status Transitioning from Draft to Confirmed  
-      [IOrderServices] --> [IOrderRepos] : 1.15 Persist Confirmed Order
+      [IOrderService] --> [IOrderRepo] : 1.13 Fetch Given Order
+      [IOrderService] --> [IOrderEventBusClient] : 1.14 Process Order Status Transitioning from Draft to Confirmed  
+      [IOrderService] --> [IOrderRepo] : 1.15 Persist Confirmed Order
 
-      [OrderRepos] ..|> [IOrderRepos]
+      [OrderRepo] ..|> [IOrderRepo]
       [OrderEventBusClient] ..|> [IOrderEventBusClient]
     }
 
     package Catalog {
 
       package CatalogInfra {
-        [CatalogRepos]
+        [CatalogRepo]
         [CatalogEventBusClient]
       }
 
@@ -61,24 +61,24 @@ package ChickenCommerceHost {
       }
 
       package CatalogCore {
-        [ICatalogServices] #Yellow
-        [CatalogServices]
+        [ICatalogService] #Yellow
+        [CatalogService]
         [ICatalogEventBusClient]
-        [Catalog Biz Models]
-        [ICatalogRepos]
+        [Catalog Biz Model]
+        [ICatalogRepo]
       }
 
       
-      [CatalogServices] ..|> [ICatalogServices]
+      [CatalogService] ..|> [ICatalogService]
 
-      [CatalogEvents] --> [ICatalogServices] : 1.6 Invoke ReserveProducts
+      [CatalogEvents] --> [ICatalogService] : 1.6 Invoke ReserveProducts
 
-      [ICatalogServices] --> [ICatalogRepos] : 1.7 Fetch Catalog Biz Model
-      [ICatalogServices] --> [Catalog Biz Models] : 1.8 Process product reservation
-      [ICatalogServices] --> [ICatalogRepos] : 1.9 Persist Catalog Biz Model
-      [ICatalogServices] --> [ICatalogEventBusClient] : 1.10 Publish ProductReservationSuccessful Event
+      [ICatalogService] --> [ICatalogRepo] : 1.7 Fetch Catalog Biz Model
+      [ICatalogService] --> [Catalog Biz Model] : 1.8 Process product reservation
+      [ICatalogService] --> [ICatalogRepo] : 1.9 Persist Catalog Biz Model
+      [ICatalogService] --> [ICatalogEventBusClient] : 1.10 Publish ProductReservationSuccessful Event
 
-      [CatalogRepos] ..|> [ICatalogRepos]
+      [CatalogRepo] ..|> [ICatalogRepo]
       [CatalogEventBusClient] ..|> [ICatalogEventBusClient]
     }
 

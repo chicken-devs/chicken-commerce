@@ -14,7 +14,7 @@ package ChickenCommerceHost {
     package Account {
 
       package AccInfra {
-        [AccRepos]
+        [AccRepo]
         [AccEventBusClient]
       }
 
@@ -25,32 +25,32 @@ package ChickenCommerceHost {
       }
 
       package AccCore {
-        [IAccServices] #Yellow
-        [AccServices]
+        [IAccService] #Yellow
+        [AccService]
         [IAccEventBusClient]
-        [Acc Biz Models]
-        [IAccRepos]
+        [Acc Biz Model]
+        [IAccRepo]
       }
 
-      [AccServices] ..|> [IAccServices]
+      [AccService] ..|> [IAccService]
 
-      [AccAPIs] --> [IAccServices]
-      [AccGRPCs] --> [IAccServices]
-      [AccEvents] --> [IAccServices]
+      [AccAPIs] --> [IAccService]
+      [AccGRPCs] --> [IAccService]
+      [AccEvents] --> [IAccService]
 
-      [IAccServices] --> [IAccRepos] : 1. Fetch Biz Models
-      [IAccServices] --> [Acc Biz Models] : 2. Process Biz
-      [IAccServices] --> [IAccRepos] : 3. Persist Data
-      [IAccServices] --> [IAccEventBusClient] : 4. Publish Event
+      [IAccService] --> [IAccRepo] : 1. Fetch Biz Model
+      [IAccService] --> [Acc Biz Model] : 2. Process Biz
+      [IAccService] --> [IAccRepo] : 3. Persist Data
+      [IAccService] --> [IAccEventBusClient] : 4. Publish Event
 
-      [AccRepos] ..|> [IAccRepos]
+      [AccRepo] ..|> [IAccRepo]
       [AccEventBusClient] ..|> [IAccEventBusClient]
     }
 
     package Catalog {
 
       package CatalogInfra {
-        [CatalogRepos]
+        [CatalogRepo]
         [CatalogEventBusClient]
       }
 
@@ -61,25 +61,25 @@ package ChickenCommerceHost {
       }
 
       package CatalogCore {
-        [ICatalogServices] #Yellow
-        [CatalogServices]
+        [ICatalogService] #Yellow
+        [CatalogService]
         [ICatalogEventBusClient]
-        [Catalog Biz Models]
-        [ICatalogRepos]
+        [Catalog Biz Model]
+        [ICatalogRepo]
       }
 
-      [CatalogServices] ..|> [ICatalogServices]
+      [CatalogService] ..|> [ICatalogService]
 
-      [CatalogAPIs] --> [ICatalogServices]
-      [CatalogGRPCs] --> [ICatalogServices]
-      [CatalogEvents] --> [ICatalogServices]
+      [CatalogAPIs] --> [ICatalogService]
+      [CatalogGRPCs] --> [ICatalogService]
+      [CatalogEvents] --> [ICatalogService]
 
-      [ICatalogServices] --> [ICatalogRepos] : 1. Fetch Biz Models
-      [ICatalogServices] --> [Catalog Biz Models] : 2. Process Biz
-      [ICatalogServices] --> [ICatalogRepos] : 3. Persist Data
-      [ICatalogServices] --> [ICatalogEventBusClient] : 4. Publish Event
+      [ICatalogService] --> [ICatalogRepo] : 1. Fetch Biz Model
+      [ICatalogService] --> [Catalog Biz Model] : 2. Process Biz
+      [ICatalogService] --> [ICatalogRepo] : 3. Persist Data
+      [ICatalogService] --> [ICatalogEventBusClient] : 4. Publish Event
 
-      [CatalogRepos] ..|> [ICatalogRepos]
+      [CatalogRepo] ..|> [ICatalogRepo]
       [CatalogEventBusClient] ..|> [ICatalogEventBusClient]
     }
 
@@ -112,7 +112,7 @@ package Kafka {
 }
 
 database MongoDB
-MongoDB ..|> [AccRepos]
-MongoDB ..|> [CatalogRepos]
+MongoDB ..|> [AccRepo]
+MongoDB ..|> [CatalogRepo]
 
 @enduml
