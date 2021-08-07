@@ -1,0 +1,30 @@
+
+@startuml
+package Github{
+ database AccountantApiRepo #Yellow
+ database ProductApiRepo #Yellow
+}
+
+package Jenkin{
+   control AccountantApiBuild
+   control ProductApiBuild
+}
+
+AccountantApiRepo --> AccountantApiBuild
+ProductApiRepo --> ProductApiBuild
+
+artifact AccountantApiImage
+artifact ProductApiImage
+
+ProductApiBuild --> ProductApiImage : builds
+AccountantApiBuild --> AccountantApiImage : builds
+
+database ChickenCommerceDockerHub
+
+ProductApiImage --> ChickenCommerceDockerHub : push
+AccountantApiImage --> ChickenCommerceDockerHub : push
+
+node DockerHost
+
+ChickenCommerceDockerHub --> DockerHost : push
+@enduml

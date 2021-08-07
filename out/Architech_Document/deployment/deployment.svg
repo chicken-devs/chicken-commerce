@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="602px" preserveAspectRatio="none" style="width:369px;height:602px;background:#FFFFFF;" version="1.1" viewBox="0 0 369 602" width="369px" zoomAndPan="magnify"><defs><filter height="300%" id="fqoq5bg2bwyqa" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[e5ae6d455ada1e092970eb67aef0204b]
+cluster Github--><polygon fill="#FFFFFF" filter="url(#fqoq5bg2bwyqa)" points="16,6,69,6,76,29.6094,352,29.6094,352,105,16,105,16,6" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="16" x2="76" y1="29.6094" y2="29.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="47" x="20" y="22.5332">Github</text><!--MD5=[8b489d3c7045a77f2a295b4a913f6487]
+cluster Jenkin--><polygon fill="#FFFFFF" filter="url(#fqoq5bg2bwyqa)" points="45,138,98,138,105,161.6094,334,161.6094,334,240,45,240,45,138" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="45" x2="105" y1="161.6094" y2="161.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="47" x="49" y="154.5332">Jenkin</text><!--MD5=[09091e2a7178da0bd5c984a5ee2978d8]
+entity AccountantApiRepo--><path d="M32.5,52 C32.5,42 105,42 105,42 C105,42 177.5,42 177.5,52 L177.5,78.6094 C177.5,88.6094 105,88.6094 105,88.6094 C105,88.6094 32.5,88.6094 32.5,78.6094 L32.5,52 " fill="#FFFF00" filter="url(#fqoq5bg2bwyqa)" style="stroke:#000000;stroke-width:1.5;"/><path d="M32.5,52 C32.5,62 105,62 105,62 C105,62 177.5,62 177.5,52 " fill="none" style="stroke:#000000;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="125" x="42.5" y="80.5332">AccountantApiRepo</text><!--MD5=[299f1f717da6e2c7f5a5a596e5bf03bd]
+entity ProductApiRepo--><path d="M212.5,52 C212.5,42 274,42 274,42 C274,42 335.5,42 335.5,52 L335.5,78.6094 C335.5,88.6094 274,88.6094 274,88.6094 C274,88.6094 212.5,88.6094 212.5,78.6094 L212.5,52 " fill="#FFFF00" filter="url(#fqoq5bg2bwyqa)" style="stroke:#000000;stroke-width:1.5;"/><path d="M212.5,52 C212.5,62 274,62 274,62 C274,62 335.5,62 335.5,52 " fill="none" style="stroke:#000000;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="103" x="222.5" y="80.5332">ProductApiRepo</text><!--MD5=[de0a7af5a63c3e586c3dc97022202233]
+entity AccountantApiBuild--><ellipse cx="122" cy="190" fill="#FEFECE" filter="url(#fqoq5bg2bwyqa)" rx="12" ry="12" style="stroke:#A80036;stroke-width:1.5;"/><polygon fill="#A80036" points="118,178,124,173,122,178,124,183,118,178" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="122" x="61" y="220.5332">AccountantApiBuild</text><!--MD5=[26729d3e5bf95ad7c4867594df1ab28e]
+entity ProductApiBuild--><ellipse cx="268" cy="190" fill="#FEFECE" filter="url(#fqoq5bg2bwyqa)" rx="12" ry="12" style="stroke:#A80036;stroke-width:1.5;"/><polygon fill="#A80036" points="264,178,270,173,268,178,270,183,264,178" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="100" x="218" y="220.5332">ProductApiBuild</text><!--MD5=[7acd89e71153c7ca3e246f0c415decfc]
+entity AccountantApiImage--><rect fill="#FEFECE" filter="url(#fqoq5bg2bwyqa)" height="40.6094" style="stroke:#000000;stroke-width:1.5;" width="159" x="15.5" y="304"/><polygon fill="#FEFECE" points="157.5,309,157.5,323,169.5,323,169.5,315,163.5,309,157.5,309" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="163.5" x2="163.5" y1="309" y2="315"/><line style="stroke:#000000;stroke-width:1.5;" x1="169.5" x2="163.5" y1="315" y2="315"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="129" x="25.5" y="331.5332">AccountantApiImage</text><!--MD5=[18056eed1930871964e7dfd1bd65d0b1]
+entity ProductApiImage--><rect fill="#FEFECE" filter="url(#fqoq5bg2bwyqa)" height="40.6094" style="stroke:#000000;stroke-width:1.5;" width="137" x="209.5" y="304"/><polygon fill="#FEFECE" points="329.5,309,329.5,323,341.5,323,341.5,315,335.5,309,329.5,309" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="335.5" x2="335.5" y1="309" y2="315"/><line style="stroke:#000000;stroke-width:1.5;" x1="341.5" x2="335.5" y1="315" y2="315"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="107" x="219.5" y="331.5332">ProductApiImage</text><!--MD5=[a402c07f91b5729130a5437cdfc807ec]
+entity ChickenCommerceDockerHub--><path d="M81.5,433 C81.5,423 186,423 186,423 C186,423 290.5,423 290.5,433 L290.5,459.6094 C290.5,469.6094 186,469.6094 186,469.6094 C186,469.6094 81.5,469.6094 81.5,459.6094 L81.5,433 " fill="#FEFECE" filter="url(#fqoq5bg2bwyqa)" style="stroke:#000000;stroke-width:1.5;"/><path d="M81.5,433 C81.5,443 186,443 186,443 C186,443 290.5,443 290.5,433 " fill="none" style="stroke:#000000;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="189" x="91.5" y="461.5332">ChickenCommerceDockerHub</text><!--MD5=[926c2b0c63bb352fad4be4c59de2e892]
+entity DockerHost--><polygon fill="#FEFECE" filter="url(#fqoq5bg2bwyqa)" points="129.5,558,139.5,548,242.5,548,242.5,585.6094,232.5,595.6094,129.5,595.6094,129.5,558" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="232.5" x2="242.5" y1="558" y2="548"/><line style="stroke:#000000;stroke-width:1.5;" x1="129.5" x2="232.5" y1="558" y2="558"/><line style="stroke:#000000;stroke-width:1.5;" x1="232.5" x2="232.5" y1="558" y2="595.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="73" x="144.5" y="582.5332">DockerHost</text><!--MD5=[1a54cfad1bd2bc5b4b7e9193320b066a]
+link AccountantApiRepo to AccountantApiBuild--><path d="M107.92,89.11 C110.78,111.18 115.13,144.87 118.24,168.93 " fill="none" id="AccountantApiRepo-to-AccountantApiBuild" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="118.89,173.91,121.6993,164.4703,118.247,168.9515,113.7658,165.4992,118.89,173.91" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[c44dc6573d4ee68642eaa84ac8541382]
+link ProductApiRepo to ProductApiBuild--><path d="M272.97,89.11 C271.97,111.09 270.44,144.59 269.34,168.63 " fill="none" id="ProductApiRepo-to-ProductApiBuild" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="269.1,173.91,273.5068,165.1021,269.3283,168.9152,265.5152,164.7367,269.1,173.91" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[569e5625aeb2924fe0241200108874bf]
+link ProductApiBuild to ProductApiImage--><path d="M269.95,224.11 C271.7,245.68 274.25,277.17 276.01,298.9 " fill="none" id="ProductApiBuild-to-ProductApiImage" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="276.41,303.92,279.6774,294.6289,276.0101,298.936,271.7031,295.2687,276.41,303.92" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="34" x="274" y="270.4951">builds</text><!--MD5=[c4702860fde36f8626b939d5d63450be]
+link AccountantApiBuild to AccountantApiImage--><path d="M116.73,224.11 C112.01,245.68 105.13,277.17 100.38,298.9 " fill="none" id="AccountantApiBuild-to-AccountantApiImage" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="99.28,303.92,105.0929,295.9695,100.3374,299.0331,97.2738,294.2776,99.28,303.92" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="34" x="111" y="270.4951">builds</text><!--MD5=[7c8e8f98776b218d24d36b0528227a7b]
+link ProductApiImage to ChickenCommerceDockerHub--><path d="M263.01,345.05 C247.68,365.05 223.73,396.29 206.61,418.62 " fill="none" id="ProductApiImage-to-ChickenCommerceDockerHub" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="203.49,422.68,212.1471,417.9837,206.5379,418.7163,205.8052,413.1071,203.49,422.68" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="28" x="238" y="389.4951">push</text><!--MD5=[a329035781a7f6d34450e3e1bdb2e2f3]
+link AccountantApiImage to ChickenCommerceDockerHub--><path d="M109.82,345.05 C125,365.05 148.69,396.29 165.62,418.62 " fill="none" id="AccountantApiImage-to-ChickenCommerceDockerHub" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="168.7,422.68,166.4398,413.094,165.6749,418.6989,160.07,417.9341,168.7,422.68" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="28" x="146" y="389.4951">push</text><!--MD5=[aa7a1bb0730210c224344719761b2207]
+link ChickenCommerceDockerHub to DockerHost--><path d="M186,470.15 C186,490.52 186,520.54 186,542.53 " fill="none" id="ChickenCommerceDockerHub-to-DockerHost" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="186,547.65,190,538.65,186,542.65,182,538.65,186,547.65" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="28" x="187" y="514.4951">push</text><!--MD5=[e1aef9d2b00eb0943f06f87109c21215]
+@startuml
+package Github{
+ database AccountantApiRepo #Yellow
+ database ProductApiRepo #Yellow
+}
+
+package Jenkin{
+   control AccountantApiBuild
+   control ProductApiBuild
+}
+
+AccountantApiRepo - -> AccountantApiBuild
+ProductApiRepo - -> ProductApiBuild
+
+artifact AccountantApiImage
+artifact ProductApiImage
+
+ProductApiBuild - -> ProductApiImage : builds
+AccountantApiBuild - -> AccountantApiImage : builds
+
+database ChickenCommerceDockerHub
+
+ProductApiImage - -> ChickenCommerceDockerHub : push
+AccountantApiImage - -> ChickenCommerceDockerHub : push
+
+node DockerHost
+
+ChickenCommerceDockerHub - -> DockerHost : push
+@enduml
+
+PlantUML version 1.2021.7(Sun May 23 19:40:07 ICT 2021)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: Cp1252
+Language: en
+Country: US
+--></g></svg>
