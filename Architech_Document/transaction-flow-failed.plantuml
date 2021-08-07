@@ -1,0 +1,107 @@
+# PlantUML Editor
+# Authors:
+#   Huyen Minh Nguyen (Fresher Developer)
+# Contributors:
+#   Viet Pham (Newbie)
+
+@startuml ChickenCommerce
+package ChickenCommerceHost {
+
+  [AuthMiddleware]
+
+  package Modules {
+
+    package Order {
+
+      package OrderInfra {
+        [OrderRepo]
+        [OrderEventBusClient]
+      }
+
+      package OrderEndpoints {
+        [OrderAPIs] #Yellow
+        [OrderEvents] #Yellow
+      }
+
+      package OrderCore {
+        [IOrderService] #Yellow
+        [OrderService]
+        [IOrderEventBusClient]
+        [Order Biz Model]
+        [IOrderRepo]
+      }
+
+      [OrderService] ..|> [IOrderService]
+
+      [OrderAPIs] --> [IOrderService] : 1.1 Invoke CreateOrder
+      [IOrderService] --> [Order Biz Model] : 1.2 Init Draft Order
+
+      [IOrderService] --> [IOrderRepo] : 1.3 Persist Draft Order
+      [IOrderService] --> [IOrderEventBusClient] : 1.4 Publish DraftOrderCreated Event
+
+      [OrderEvents] --> [IOrderService] : 1.12 Invoke SetOrderStatusCanceled
+      
+      [IOrderService] --> [IOrderRepo] : 1.13 Fetch Given Order
+      [IOrderService] --> [IOrderEventBusClient] : 1.14 Process Order Status Transitioning from Draft to Canceled  
+      [IOrderService] --> [IOrderRepo] : 1.15 Persist Canceled Order
+
+      [OrderRepo] ..|> [IOrderRepo]
+      [OrderEventBusClient] ..|> [IOrderEventBusClient]
+    }
+
+    package Catalog {
+
+      package CatalogInfra {
+        [CatalogRepo]
+        [CatalogEventBusClient]
+      }
+
+      package CatalogEndpoints {
+        [CatalogEvents] #Yellow
+      }
+
+      package CatalogCore {
+        [ICatalogService] #Yellow
+        [CatalogService]
+        [ICatalogEventBusClient]
+        [Catalog Biz Model]
+        [ICatalogRepo]
+      }
+
+      [CatalogService] ..|> [ICatalogService]
+
+      [CatalogEvents] --> [ICatalogService] : 1.6 Invoke ReserveProducts
+
+      [ICatalogService] --> [ICatalogRepo] : 1.7 Fetch Catalog Biz Model
+      [ICatalogService] --> [Catalog Biz Model] : 1.8 Process product reservation failed
+      [ICatalogService] --> [ICatalogEventBusClient] : 1.9 Publish ProductReservationFailed Event
+
+      [CatalogRepo] ..|> [ICatalogRepo]
+      [CatalogEventBusClient] ..|> [ICatalogEventBusClient]
+    }
+
+  }
+}
+
+[Client]
+Client --> [AuthMiddleware]
+
+[AuthMiddleware] --> [OrderAPIs] : 1: Create Order Request
+
+package Kafka {
+  [Producer]
+  [Consumer]
+  [Server]
+
+  [Producer] --> [Server]
+  [Server] --> [Consumer]
+
+  [Producer] ..|> [OrderEventBusClient]
+  [Consumer] --> [OrderEvents] : 1.11 Trigger ProductReservationFailed Handler
+  
+  [Producer] ..|> [CatalogEventBusClient]
+  [Consumer] --> [CatalogEvents] : 1.5 Trigger DraftOrderCreated Handler
+}
+
+
+@enduml
