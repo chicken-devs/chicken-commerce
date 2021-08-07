@@ -24,23 +24,26 @@ package ChickenCommerceHost {
       }
 
       package OrderCore {
-        [OrderServices] #Yellow
+        [IOrderServices] #Yellow
+        [OrderServices]
         [IOrderEventBusClient]
         [Order Biz Models]
         [IOrderRepos]
       }
 
-      [OrderAPIs] --> [OrderServices] : 1.1 Invoke CreateOrder
-      [OrderServices] --> [Order Biz Models] : 1.2 Init Draft Order
+      [OrderServices] ..|> [IOrderServices]
 
-      [OrderServices] --> [IOrderRepos] : 1.3 Persist Draft Order
-      [OrderServices] --> [IOrderEventBusClient] : 1.4 Publish DraftOrderCreated Event
+      [OrderAPIs] --> [IOrderServices] : 1.1 Invoke CreateOrder
+      [IOrderServices] --> [Order Biz Models] : 1.2 Init Draft Order
 
-      [OrderEvents] --> [OrderServices] : 1.12 Invoke SetOrderStatusConfirmed
+      [IOrderServices] --> [IOrderRepos] : 1.3 Persist Draft Order
+      [IOrderServices] --> [IOrderEventBusClient] : 1.4 Publish DraftOrderCreated Event
+
+      [OrderEvents] --> [IOrderServices] : 1.12 Invoke SetOrderStatusConfirmed
       
-      [OrderServices] --> [IOrderRepos] : 1.13 Fetch Given Order
-      [OrderServices] --> [IOrderEventBusClient] : 1.14 Process Order Status Transitioning from Draft to Confirmed  
-      [OrderServices] --> [IOrderRepos] : 1.15 Persist Confirmed Order
+      [IOrderServices] --> [IOrderRepos] : 1.13 Fetch Given Order
+      [IOrderServices] --> [IOrderEventBusClient] : 1.14 Process Order Status Transitioning from Draft to Confirmed  
+      [IOrderServices] --> [IOrderRepos] : 1.15 Persist Confirmed Order
 
       [OrderRepos] ..|> [IOrderRepos]
       [OrderEventBusClient] ..|> [IOrderEventBusClient]
@@ -58,18 +61,22 @@ package ChickenCommerceHost {
       }
 
       package CatalogCore {
-        [CatalogServices] #Yellow
+        [ICatalogServices] #Yellow
+        [CatalogServices]
         [ICatalogEventBusClient]
         [Catalog Biz Models]
         [ICatalogRepos]
       }
 
-      [CatalogEvents] --> [CatalogServices] : 1.6 Invoke ReserveProducts
+      
+      [CatalogServices] ..|> [ICatalogServices]
 
-      [CatalogServices] --> [ICatalogRepos] : 1.7 Fetch Catalog Biz Model
-      [CatalogServices] --> [Catalog Biz Models] : 1.8 Process product reservation
-      [CatalogServices] --> [ICatalogRepos] : 1.9 Persist Catalog Biz Model
-      [CatalogServices] --> [ICatalogEventBusClient] : 1.10 Publish ProductReservationSuccessful Event
+      [CatalogEvents] --> [ICatalogServices] : 1.6 Invoke ReserveProducts
+
+      [ICatalogServices] --> [ICatalogRepos] : 1.7 Fetch Catalog Biz Model
+      [ICatalogServices] --> [Catalog Biz Models] : 1.8 Process product reservation
+      [ICatalogServices] --> [ICatalogRepos] : 1.9 Persist Catalog Biz Model
+      [ICatalogServices] --> [ICatalogEventBusClient] : 1.10 Publish ProductReservationSuccessful Event
 
       [CatalogRepos] ..|> [ICatalogRepos]
       [CatalogEventBusClient] ..|> [ICatalogEventBusClient]
