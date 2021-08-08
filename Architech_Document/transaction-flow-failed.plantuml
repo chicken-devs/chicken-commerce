@@ -103,5 +103,4 @@ package Kafka {
   [Consumer] --> [CatalogEvents] : 1.5 Trigger DraftOrderCreated Handler
 }
 
-
 @enduml

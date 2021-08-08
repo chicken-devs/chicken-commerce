@@ -71,11 +71,11 @@ A playground where the Code Lovers practice their skills.
 |   |   LoggingBehavior.cs
 |   |   TraceIdEnricher.cs
 |   |
-|   +---Swagger
-|   |   ConfigureSwaggerOptions.cs
-|   |   Extentions.cs
-|   |   SwaggerDefaultValues.cs
-|   |
+|   \---Swagger
+|       ConfigureSwaggerOptions.cs
+|       Extentions.cs
+|       SwaggerDefaultValues.cs
+|
 +---CKE.Shared
 |   |   CKE.Shared.csproj
 |   |
@@ -83,12 +83,15 @@ A playground where the Code Lovers practice their skills.
 |   |   DateTimeHelper.cs
 |   |   GuidHelper.cs
 |   |
-|   +---Extensions
-|   |   DateTimeExtensions.cs
-|   |   GuidExtensions.cs
-|   |   StringExtensions.cs
-|   |
+|   \---Extensions
+|       DateTimeExtensions.cs
+|       GuidExtensions.cs
+|       StringExtensions.cs
+|
 \---CKE.Modules
+   |
+   \---Sample
+    |  Sample.project.cs
     |
     \---Sample
        |   Sample.project.cs
@@ -189,6 +192,55 @@ A playground where the Code Lovers practice their skills.
 |   |   StringExtensions.cs
 |   |
 \---CKE.Modules
+  |
+  +---Core.Account
+  |  |  Core.Account.project.cs
+  |  |
+  |  +---EntryPoints
+  |  |  |
+  |  |  +---Api
+  |  |  |  AccountControllers.cs
+  |  |  |  ViewModels.cs
+  |  |  |
+  |  |  +---gRPC
+  |  |  |  AccountGrpcServices.cs
+  |  |  |  GrpcModels.cs
+  |  |  |
+  |  |  \---Events
+  |  |     AccountEventHandlers.cs
+  |  |     EventModels.cs
+  |  |
+  |  +---Infra
+  |  |  |  AccountRepository.cs
+  |  |  |
+  |  |  \---Events
+  |  |     AccountEvents.cs
+  |  |
+  |  \---Biz
+  |    |  IAccountRepository.cs
+  |    |  IAccountService.cs
+  |    |  AccountService.cs
+  |    |  AccountBizModel.cs
+  |    |
+  |    \---Dtos
+  |       AccountRegisterDto.cs
+  |
+  \---Catalog
+    |  Catalog.project.cs
+    |
+    +---EntryPoints
+    |  |
+    |  +---Api
+    |  |  CatalogControllers.cs
+    |  |  ViewModels.cs
+    |  |
+    |  +---gRPC
+    |  |  CatalogGrpcServices.cs
+    |  |  GrpcModels.cs
+    |  |
+    |  \---Events
+    |     CatalogEventHandlers.cs
+    |     EventModels.cs
     |
     +---Core.Account
     |   |   Core.Account.project.cs
