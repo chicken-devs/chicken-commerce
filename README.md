@@ -257,22 +257,24 @@ A playground where the Code Lovers practice their skills.
 
 # Works
 
-- **:hammer_and_pick: App Structure**
+Legends: :black_square_button: To Do | :hammer: In Progress | :white_check_mark: Done
+
+- **:hammer: App Structure**
   - Category: **Base**
   - Contributor: [Viet Pham](https://github.com/vietphamh)
-- **:hammer_and_pick: Authentication (Session/ OAuth 2/ OpenID Connect)**
+- **:black_square_button: Authentication (Session/ OAuth 2/ OpenID Connect)**
   - Category: **Core Features**
   - Contributor: n/a
-- **:hammer_and_pick: Account**
+- **:black_square_button: Account**
   - Category: **Core Features**
   - Contributor: n/a
-- **:hammer_and_pick: Catalog**
+- **:black_square_button: Catalog**
   - Category: **Biz Features**
   - Contributor: n/a
-- **:hammer_and_pick: Order**
+- **:black_square_button: Order**
   - Category: **Biz Features**
   - Contributor: n/a
-- **:hammer_and_pick: Notification**
+- **:black_square_button: Notification**
   - Category: **Biz Features**
   - Contributor: n/a
 - ... TBD
