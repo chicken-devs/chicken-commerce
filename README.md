@@ -101,8 +101,8 @@ A playground where the Code Lovers practice their skills.
     |  |
     |  +---gRPC
     |  |  SampleGrpcServices.cs
-  	 	|  |  GrpcModels.cs
-  	 	|  |
+  	|  |  GrpcModels.cs
+  	|  |
     |  \---Events
     |    SampleEventHandlers.cs
     |    EventModels.cs
@@ -110,17 +110,17 @@ A playground where the Code Lovers practice their skills.
     +---Infra
     |  SampleRepository.cs
     |
-    	\---Events
-      |  SampleEvents.cs
-      |
-      \---Biz
-        |  ISampleRepository.cs
-        |  SampleService.cs
-        |  SampleService.cs
-        |  SampleBizModel.cs
-        |
-        \---Dtos
-          SampleCreateDto.cs
+    \---Events
+       |  SampleEvents.cs
+       |
+       \---Biz
+         |  ISampleRepository.cs
+         |  SampleService.cs
+         |  SampleService.cs
+         |  SampleBizModel.cs
+         |
+         \---Dtos
+            SampleCreateDto.cs
 
 ```
 
@@ -196,31 +196,31 @@ A playground where the Code Lovers practice their skills.
   |  +---EntryPoints
   |  |  |
   |  |  +---Api
-  |  	|  |  	AccountControllers.cs
-  |  	|  |  ViewModels.cs
-  |  	|  |
-  |  	|  +---gRPC
+  |  |  |  AccountControllers.cs
+  |  |  |  ViewModels.cs
+  |  |  |
+  |  |  +---gRPC
   |  |  |  AccountGrpcServices.cs
-  |  |  	|  GrpcModels.cs
+  |  |  |  GrpcModels.cs
   |  |  |
   |  |  \---Events
-  |  	|    AccountEventHandlers.cs
-  |  	|    EventModels.cs
+  |  |     AccountEventHandlers.cs
+  |  |     EventModels.cs
   |  |
   |  +---Infra
   |  |  |  AccountRepository.cs
   |  |  |
   |  |  \---Events
-  |  |    AccountEvents.cs
+  |  |     AccountEvents.cs
   |  |
   |  \---Biz
   |    |  IAccountRepository.cs
   |    |  IAccountService.cs
   |    |  AccountService.cs
   |    |  AccountBizModel.cs
-  |    	|
+  |    |
   |    \---Dtos
-  |      AccountRegisterDto.cs
+  |       AccountRegisterDto.cs
   |
   \---Catalog
     |  Catalog.project.cs
@@ -228,22 +228,22 @@ A playground where the Code Lovers practice their skills.
     +---EntryPoints
     |  |
     |  +---Api
-    |  	|  	CatalogControllers.cs
+    |  |  CatalogControllers.cs
     |  |  ViewModels.cs
     |  |
-    |  	+---gRPC
-    |  |  |  CatalogGrpcServices.cs
-    |  |  	|  GrpcModels.cs
-    |  |  |
+    |  +---gRPC
+    |  |  CatalogGrpcServices.cs
+    |  |  GrpcModels.cs
+    |  |
     |  \---Events
-    |    CatalogEventHandlers.cs
-    |    EventModels.cs
+    |     CatalogEventHandlers.cs
+    |     EventModels.cs
     |
     +---Infra
     |  |  CatalogRepository.cs
     |  |
     |  \---Events
-    |    CatalogEvents.cs
+    |     CatalogEvents.cs
     |
     \---Biz
       |  ICatalogRepository.cs
@@ -252,7 +252,7 @@ A playground where the Code Lovers practice their skills.
       |  CatalogBizModel.cs
       |
       \---Dtos
-        CatalogCreateDto.cs
+         CatalogCreateDto.cs
 ```
 
 # Works
