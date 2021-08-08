@@ -84,7 +84,7 @@ A playground where the Code Lovers practice their skills.
 |  |  GuidHelper.cs
 |  |
 |  \---Extensions
-|    DateTimeExtensions.cs
+|     DateTimeExtensions.cs
 |     GuidExtensions.cs
 |     StringExtensions.cs
 |
@@ -96,13 +96,13 @@ A playground where the Code Lovers practice their skills.
     +---EntryPoints
     |  |
     |  +---Api
-    |  |  	SampleControllers.cs
+    |  |  SampleControllers.cs
     |  |  ViewModels.cs
     |  |
     |  +---gRPC
     |  |  SampleGrpcServices.cs
-  	|  |  GrpcModels.cs
-  	|  |
+    |  |  GrpcModels.cs
+    |  |
     |  \---Events
     |    SampleEventHandlers.cs
     |    EventModels.cs
@@ -136,7 +136,7 @@ A playground where the Code Lovers practice their skills.
 |  |  Program.cs
 |  |
 |  +---Properties
-|  |  	launchSettings.json
+|  |  launchSettings.json
 |  |
 +---CKE.Infra
 |  |  CKE.Infra.csproj
