@@ -44,12 +44,12 @@ A playground where the Code Lovers practice their skills.
 |  |  Extensions.cs
 |  |
 |  +---Auth
-|  |  |  AuthBehavior.cs
-|  |  |  Extensions.cs
-|  |  |  IAuthRequest.cs
-|  |  |  ISecurityContextAccessor.cs
-|  |  |  SecurityContextAccessor.csc
-|  |  |
+|  |  AuthBehavior.cs
+|  |  Extensions.cs
+|  |  IAuthRequest.cs
+|  |  ISecurityContextAccessor.cs
+|  |  SecurityContextAccessor.csc
+|  |
 |  +---Database
 |  |  |
 |  |  \---MongoDb
@@ -64,7 +64,7 @@ A playground where the Code Lovers practice their skills.
 |  |     |  KafkaEventBusOptions.cs
 |  |     |
 |  |     \---Internal
-|  |          KafkaEventBus.cs
+|  |        KafkaEventBus.cs
 |  |
 |  +---Logging
 |  |  Extensions.cs
@@ -104,8 +104,8 @@ A playground where the Code Lovers practice their skills.
     |  |  GrpcModels.cs
     |  |
     |  \---Events
-    |    SampleEventHandlers.cs
-    |    EventModels.cs
+    |     SampleEventHandlers.cs
+    |       EventModels.cs
     |
     +---Infra
     |  SampleRepository.cs
@@ -153,7 +153,7 @@ A playground where the Code Lovers practice their skills.
 |  +---Database
 |  |  |
 |  |  \---MongoDb
-|  |    MongoDbOptions.cs
+|  |      MongoDbOptions.cs
 |  |
 |  +---Bus
 |  |  |  Extensions.cs
@@ -161,10 +161,10 @@ A playground where the Code Lovers practice their skills.
 |  |  |  EventBusBase.cs
 |  |  |
 |  |  \---Kafka
-|  |    |  KafkaEventBusOptions.cs
-|  |    |
-|  |    \---Internal
-|  |      KafkaEventBus.cs
+|  |     |  KafkaEventBusOptions.cs
+|  |     |
+|  |     \---Internal
+|  |        KafkaEventBus.cs
 |  |
 |  +---Logging
 |  |  Extensions.cs
