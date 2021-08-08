@@ -28,99 +28,99 @@ A playground where the Code Lovers practice their skills.
 
 ```bash
 +---CKE.Host
-|	|	CKE.Host.csproj
-|   |   .dockerignore
-|   |   appsettings.json
-|   |   Dockerfile
-|   |   CKE.Host.csproj
-|   |   Program.cs
-|   |
-|   +---Properties
-|   |   	launchSettings.json
-|   |
+|  |  CKE.Host.csproj
+|  |  .dockerignore
+|  |  appsettings.json
+|  |  Dockerfile
+|  |  CKE.Host.csproj
+|  |  Program.cs
+|  |
+|  +---Properties
+|  |  launchSettings.json
+|  |
 +---CKE.Infra
-|	|	CKE.Infra.csproj
-|   |   AppOptions.cs
-|   |   Extensions.cs
-|	|
-|   +---Auth
-|   |       AuthBehavior.cs
-|   |       Extensions.cs
-|   |       IAuthRequest.cs
-|   |       ISecurityContextAccessor.cs
-|   |       SecurityContextAccessor.csc
-|	|
-|   +---Database
-|   |   |
-|   |   \---MongoDb
-|   |   	MongoDbOptions.cs
-|	|
-|   +---Bus
-|   |   |   Extensions.cs
-|   |   |   IEventBus.cs
-|   |   |   EventBusBase.cs
-|   |   |
-|   |   \---Kafka
-|   |       |   KafkaEventBusOptions.cs
-|   |       |
-|   |       \---Internal
-|   |           	KafkaEventBus.cs
-|	|
-|   +---Logging
-|   |       Extensions.cs
-|   |       LoggingBehavior.cs
-|   |       TraceIdEnricher.cs
-|   |
-|   +---Swagger
-|   |       ConfigureSwaggerOptions.cs
-|   |       Extentions.cs
-|   |       SwaggerDefaultValues.cs
-|	|
+|  |  CKE.Infra.csproj
+|  |  AppOptions.cs
+|  |  Extensions.cs
+|  |
+|  +---Auth
+|  |  AuthBehavior.cs
+|  |  Extensions.cs
+|  |  IAuthRequest.cs
+|  |  ISecurityContextAccessor.cs
+|  |  SecurityContextAccessor.csc
+|  |
+|  +---Database
+|  |  |
+|  |  \---MongoDb
+|  |      MongoDbOptions.cs
+|  |
+|  +---Bus
+|  |  |  Extensions.cs
+|  |  |  IEventBus.cs
+|  |  |  EventBusBase.cs
+|  |  |
+|  |  \---Kafka
+|  |     |  KafkaEventBusOptions.cs
+|  |     |
+|  |     \---Internal
+|  |        KafkaEventBus.cs
+|  |
+|  +---Logging
+|  |  Extensions.cs
+|  |  LoggingBehavior.cs
+|  |  TraceIdEnricher.cs
+|  |
+|  +---Swagger
+|  |  ConfigureSwaggerOptions.cs
+|  |  Extentions.cs
+|  |  SwaggerDefaultValues.cs
+|  |
 +---CKE.Shared
-|	|	CKE.Shared.csproj
-|	|
-|   +---Helpers
-|   |       DateTimeHelper.cs
-|   |       GuidHelper.cs
-|	|
-|   +---Extensions
-|   |       DateTimeExtensions.cs
-|   |       GuidExtensions.cs
-|   |       StringExtensions.cs
-|	|
+|  |  CKE.Shared.csproj
+|  |
+|  +---Helpers
+|  |  DateTimeHelper.cs
+|  |  GuidHelper.cs
+|  |
+|  \---Extensions
+|     DateTimeExtensions.cs
+|     GuidExtensions.cs
+|     StringExtensions.cs
+|
 \---CKE.Modules
+   |
+   \---Sample
+    |  Sample.project.cs
     |
-    \---Sample
-	   	|	Sample.project.cs
-	   	|
-		+---EntryPoints
-		|	|
-		|	+---Api
-      	|	|  	SampleControllers.cs
-      	|	|	ViewModels.cs
-      	|	|
-      	|	+---gRPC
-		|	|   SampleGrpcServices.cs
-	    |  	|   GrpcModels.cs
-	    |	|
-		|	\---Events
-      	|   	SampleEventHandlers.cs
-      	|   	EventModels.cs
-      	|
-		+---Infra
-		|	|	SampleRepository.cs
-		|	|
-      	|	\---Events
-      	|		SampleEvents.cs
-		|
-		\---Biz
-		   	|	ISampleRepository.cs
-	      	|	SampleService.cs
-	      	|	SampleService.cs
-	      	|	SampleBizModel.cs
-      		|
-	      	\---Dtos
-		      	SampleCreateDto.cs
+    +---EntryPoints
+    |  |
+    |  +---Api
+    |  |  SampleControllers.cs
+    |  |  ViewModels.cs
+    |  |
+    |  +---gRPC
+    |  |  SampleGrpcServices.cs
+    |  |  GrpcModels.cs
+    |  |
+    |  \---Events
+    |     SampleEventHandlers.cs
+    |       EventModels.cs
+    |
+    +---Infra
+    |  SampleRepository.cs
+    |
+    \---Events
+       |  SampleEvents.cs
+       |
+       \---Biz
+         |  ISampleRepository.cs
+         |  SampleService.cs
+         |  SampleService.cs
+         |  SampleBizModel.cs
+         |
+         \---Dtos
+            SampleCreateDto.cs
 
 ```
 
@@ -128,131 +128,131 @@ A playground where the Code Lovers practice their skills.
 
 ```bash
 +---CKE.Host
-|   |   CKE.Host.csproj
-|   |   .dockerignore
-|   |   appsettings.json
-|   |   Dockerfile
-|   |   CKE.Host.csproj
-|   |   Program.cs
-|   |
-|   +---Properties
-|   |   	launchSettings.json
-|   |
+|  |  CKE.Host.csproj
+|  |  .dockerignore
+|  |  appsettings.json
+|  |  Dockerfile
+|  |  CKE.Host.csproj
+|  |  Program.cs
+|  |
+|  +---Properties
+|  |  launchSettings.json
+|  |
 +---CKE.Infra
-|   |   CKE.Infra.csproj
-|   |   AppOptions.cs
-|   |   Extensions.cs
-|	|
-|   +---Auth
-|   |       AuthBehavior.cs
-|   |       Extensions.cs
-|   |       IAuthRequest.cs
-|   |       ISecurityContextAccessor.cs
-|   |       SecurityContextAccessor.csc
-|	|
-|   +---Database
-|   |   |
-|   |   \---MongoDb
-|   |   	MongoDbOptions.cs
-|	|
-|   +---Bus
-|   |   |   Extensions.cs
-|   |   |   IEventBus.cs
-|   |   |   EventBusBase.cs
-|   |   |
-|   |   \---Kafka
-|   |       |   KafkaEventBusOptions.cs
-|   |       |
-|   |       \---Internal
-|   |           	KafkaEventBus.cs
-|	|
-|   +---Logging
-|   |       Extensions.cs
-|   |       LoggingBehavior.cs
-|   |       TraceIdEnricher.cs
-|   |
-|   +---Swagger
-|   |       ConfigureSwaggerOptions.cs
-|   |       Extentions.cs
-|   |       SwaggerDefaultValues.cs
-|	|
+|  |  CKE.Infra.csproj
+|  |  AppOptions.cs
+|  |  Extensions.cs
+|  |
+|  +---Auth
+|  |  AuthBehavior.cs
+|  |  Extensions.cs
+|  |  IAuthRequest.cs
+|  |  ISecurityContextAccessor.cs
+|  |  SecurityContextAccessor.csc
+|  |
+|  +---Database
+|  |  |
+|  |  \---MongoDb
+|  |      MongoDbOptions.cs
+|  |
+|  +---Bus
+|  |  |  Extensions.cs
+|  |  |  IEventBus.cs
+|  |  |  EventBusBase.cs
+|  |  |
+|  |  \---Kafka
+|  |     |  KafkaEventBusOptions.cs
+|  |     |
+|  |     \---Internal
+|  |        KafkaEventBus.cs
+|  |
+|  +---Logging
+|  |  Extensions.cs
+|  |  LoggingBehavior.cs
+|  |  TraceIdEnricher.cs
+|  |
+|  +---Swagger
+|  |  ConfigureSwaggerOptions.cs
+|  |  Extentions.cs
+|  |  SwaggerDefaultValues.cs
+|  |
 +---CKE.Shared
-|   |   CKE.Shared.csproj
-|	|
-|   +---Helpers
-|   |       DateTimeHelper.cs
-|   |       GuidHelper.cs
-|	|
-|   +---Extensions
-|   |       DateTimeExtensions.cs
-|   |       GuidExtensions.cs
-|   |       StringExtensions.cs
-|	|
+|  |  CKE.Shared.csproj
+|  |
+|  +---Helpers
+|  |  DateTimeHelper.cs
+|  |  GuidHelper.cs
+|  |
+|  +---Extensions
+|  |  DateTimeExtensions.cs
+|  |  GuidExtensions.cs
+|  |  StringExtensions.cs
+|  |
 \---CKE.Modules
+  |
+  +---Core.Account
+  |  |  Core.Account.project.cs
+  |  |
+  |  +---EntryPoints
+  |  |  |
+  |  |  +---Api
+  |  |  |  AccountControllers.cs
+  |  |  |  ViewModels.cs
+  |  |  |
+  |  |  +---gRPC
+  |  |  |  AccountGrpcServices.cs
+  |  |  |  GrpcModels.cs
+  |  |  |
+  |  |  \---Events
+  |  |     AccountEventHandlers.cs
+  |  |     EventModels.cs
+  |  |
+  |  +---Infra
+  |  |  |  AccountRepository.cs
+  |  |  |
+  |  |  \---Events
+  |  |     AccountEvents.cs
+  |  |
+  |  \---Biz
+  |    |  IAccountRepository.cs
+  |    |  IAccountService.cs
+  |    |  AccountService.cs
+  |    |  AccountBizModel.cs
+  |    |
+  |    \---Dtos
+  |       AccountRegisterDto.cs
+  |
+  \---Catalog
+    |  Catalog.project.cs
     |
-    +---Core.Account
-	|	|	Core.Account.project.cs
-    |	|
-	|	+---EntryPoints
-	|	|	|
-	|	|	+---Api
-    |  	|	|  	AccountControllers.cs
-    |  	|	|	ViewModels.cs
-    |  	|	|
-    |  	|	+---gRPC
-	|	|	|   AccountGrpcServices.cs
-	|   |  	|   GrpcModels.cs
-	|   |	|
-	|	|	\---Events
-    |  	|   	AccountEventHandlers.cs
-    |  	|   	EventModels.cs
-    |   |
-	|	+---Infra
-	|	|	|	AccountRepository.cs
-	|	|	|
-    |   |	\---Events
-    |   |		AccountEvents.cs
-	|	|
-	|	\---Biz
-	|		|	IAccountRepository.cs
-	|      	|	IAccountService.cs
-	|      	|	AccountService.cs
-	|      	|	AccountBizModel.cs
-    |  		|
-	|      	\---Dtos
-	|	      	AccountRegisterDto.cs
+    +---EntryPoints
+    |  |
+    |  +---Api
+    |  |  CatalogControllers.cs
+    |  |  ViewModels.cs
+    |  |
+    |  +---gRPC
+    |  |  CatalogGrpcServices.cs
+    |  |  GrpcModels.cs
+    |  |
+    |  \---Events
+    |     CatalogEventHandlers.cs
+    |     EventModels.cs
     |
-    \---Catalog
-		|	|	Catalog.project.cs
-	   	|	|
-		|	+---EntryPoints
-		|	|	|
-		|	|	+---Api
-	    |  	|	|  	CatalogControllers.cs
-	    |  	|	|	ViewModels.cs
-	    |  	|	|
-	    |  	|	+---gRPC
-		|	|	|   CatalogGrpcServices.cs
-		|   |  	|   GrpcModels.cs
-		|   |	|
-		|	|	\---Events
-	    |  	|   	CatalogEventHandlers.cs
-	    |  	|   	EventModels.cs
-      	|
-		+---Infra
-		|	|	CatalogRepository.cs
-		|	|
-      	|	\---Events
-      	|		CatalogEvents.cs
-		|
-		\---Biz
-		   	|	ICatalogRepository.cs
-	      	|	CatalogService.cs
-	      	|	CatalogService.cs
-	      	|	CatalogBizModel.cs
-	      	|
-	      	\---Dtos
-		      	CatalogCreateDto.cs
+    +---Infra
+    |  |  CatalogRepository.cs
+    |  |
+    |  \---Events
+    |     CatalogEvents.cs
+    |
+    \---Biz
+      |  ICatalogRepository.cs
+      |  CatalogService.cs
+      |  CatalogService.cs
+      |  CatalogBizModel.cs
+      |
+      \---Dtos
+         CatalogCreateDto.cs
 ```
 
 # Works
