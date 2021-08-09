@@ -35,3 +35,6 @@ msbuild.wrn
 
 # Visual Studio 2015
 .vs/
+src/server/CKE.Host/obj/Debug/net5.0/CKE.Host.csproj.AssemblyReference.cache
+src/server/CKE.Modules.Account/obj/Debug/net5.0/CKE.Modules.Account.csproj.FileListAbsolute.txt
+src/server/.vs/CKE/v16/.suo
