@@ -192,119 +192,119 @@ A playground where the Code Lovers practice their skills.
 |       StringExtensions.cs
 |
 \---CKE.Modules
-  |
-  +---Account
-  |  |  Account.project.cs
-  |  |
-  |  +---EntryPoints
-  |  |  |
-  |  |  +---Api
-  |  |  |  AccountControllers.cs
-  |  |  |  ViewModels.cs
-  |  |  |
-  |  |  +---gRPC
-  |  |  |  AccountGrpcServices.cs
-  |  |  |  GrpcModels.cs
-  |  |  |
-  |  |  \---Events
-  |  |     AccountEventHandlers.cs
-  |  |     EventModels.cs
-  |  |
-  |  +---Infra
-  |  |  |  AccountRepository.cs
-  |  |  |
-  |  |  \---Events
-  |  |     AccountEvents.cs
-  |  |
-  |  \---Biz
-  |    |  IAccountRepository.cs
-  |    |  IAccountService.cs
-  |    |  AccountService.cs
-  |    |  AccountBizModel.cs
-  |    |
-  |    \---Dtos
-  |       AccountRegisterDto.cs
-  |
-  \---Catalog
-    |  Catalog.project.cs
-    |
-    +---EntryPoints
-    |  |
-    |  +---Api
-    |  |  CatalogControllers.cs
-    |  |  ViewModels.cs
-    |  |
-    |  +---gRPC
-    |  |  CatalogGrpcServices.cs
-    |  |  GrpcModels.cs
-    |  |
-    |  \---Events
-    |     CatalogEventHandlers.cs
-    |     EventModels.cs
-    |
-    +---Account
-    |   |   Account.project.cs
-    |   |
-    |   +---EntryPoints
-    |   |   |
-    |   |   +---Api
-    |   |   |   AccountControllers.cs
-    |   |   |   ViewModels.cs
-    |   |   |
-    |   |   +---gRPC
-    |   |   |   AccountGrpcServices.cs
-    |   |   |   GrpcModels.cs
-    |   |   |
-    |   |   \---Events
-    |   |       AccountEventHandlers.cs
-    |   |       EventModels.cs
-    |   |
-    |   +---Infra
-    |   |   |   AccountRepository.cs
-    |   |   |
-    |   |   \---Events
-    |   |       AccountEvents.cs
-    |   |
-    |   \---Biz
-    |       |   IAccountRepository.cs
-    |       |   IAccountService.cs
-    |       |   AccountService.cs
-    |       |   AccountBizModel.cs
-    |       |
-    |       \---Dtos
-    |           AccountRegisterDto.cs
-    |
-    \---Catalog
-        |   |   Catalog.project.cs
-        |   |
-        |   +---EntryPoints
-        |   |   |
-        |   |   +---Api
-        |   |   |   CatalogControllers.cs
-        |   |   |   ViewModels.cs
-        |   |   |
-        |   |   +---gRPC
-        |   |   |   CatalogGrpcServices.cs
-        |   |   |   GrpcModels.cs
-        |   |   |
-        |   |   \---Events
-        |   |       CatalogEventHandlers.cs
-        |   |       EventModels.cs
-        |   |
-        |   +---Infra
-        |   |   CatalogRepository.cs
-        |   |
-        |   \---Events
-        |       CatalogEvents.cs
-        |
-        \---Biz
-            |   ICatalogRepository.cs
-            |   CatalogService.cs
-            |   CatalogService.cs
-            |   CatalogBizModel.cs
-            |
-            \---Dtos
-                CatalogCreateDto.cs
+   |
+   +---Account
+   |   |   Account.project.cs
+   |   |
+   |   +---EntryPoints
+   |   |   |
+   |   |   +---Api
+   |   |   |   AccountControllers.cs
+   |   |   |   ViewModels.cs
+   |   |   |
+   |   |   +---gRPC
+   |   |   |   AccountGrpcServices.cs
+   |   |   |   GrpcModels.cs
+   |   |   |
+   |   |   \---Events
+   |   |       AccountEventHandlers.cs
+   |   |       EventModels.cs
+   |   |
+   |   +---Infra
+   |   |   |   AccountRepository.cs
+   |   |   |
+   |   |   \---Events
+   |   |       AccountEvents.cs
+   |   |
+   |   \---Biz
+   |       |   IAccountRepository.cs
+   |       |   IAccountService.cs
+   |       |   AccountService.cs
+   |       |   AccountBizModel.cs
+   |       |
+   |       \---Dtos
+   |           AccountRegisterDto.cs
+   |
+   \---Catalog
+       |   Catalog.project.cs
+       |
+       +---EntryPoints
+       |   |
+       |   +---Api
+       |   |   CatalogControllers.cs
+       |   |   ViewModels.cs
+       |   |
+       |   +---gRPC
+       |   |   CatalogGrpcServices.cs
+       |   |   GrpcModels.cs
+       |   |
+       |   \---Events
+       |       CatalogEventHandlers.cs
+       |       EventModels.cs
+       |
+       +---Account
+       |   |   Account.project.cs
+       |   |
+       |   +---EntryPoints
+       |   |   |
+       |   |   +---Api
+       |   |   |   AccountControllers.cs
+       |   |   |   ViewModels.cs
+       |   |   |
+       |   |   +---gRPC
+       |   |   |   AccountGrpcServices.cs
+       |   |   |   GrpcModels.cs
+       |   |   |
+       |   |   \---Events
+       |   |       AccountEventHandlers.cs
+       |   |       EventModels.cs
+       |   |
+       |   +---Infra
+       |   |   |   AccountRepository.cs
+       |   |   |
+       |   |   \---Events
+       |   |       AccountEvents.cs
+       |   |
+       |   \---Biz
+       |       |   IAccountRepository.cs
+       |       |   IAccountService.cs
+       |       |   AccountService.cs
+       |       |   AccountBizModel.cs
+       |       |
+       |       \---Dtos
+       |           AccountRegisterDto.cs
+       |
+       \---Catalog
+          |   |   Catalog.project.cs
+          |   |
+          |   +---EntryPoints
+          |   |   |
+          |   |   +---Api
+          |   |   |   CatalogControllers.cs
+          |   |   |   ViewModels.cs
+          |   |   |
+          |   |   +---gRPC
+          |   |   |   CatalogGrpcServices.cs
+          |   |   |   GrpcModels.cs
+          |   |   |
+          |   |   \---Events
+          |   |       CatalogEventHandlers.cs
+          |   |       EventModels.cs
+          |   |
+          |   +---Infra
+          |   |   CatalogRepository.cs
+          |   |
+          |   \---Events
+          |       CatalogEvents.cs
+          |
+          \---Biz
+             |   ICatalogRepository.cs
+             |   CatalogService.cs
+             |   CatalogService.cs
+             |   CatalogBizModel.cs
+             |
+             \---Dtos
+                 CatalogCreateDto.cs
 ```
 
 # Works
