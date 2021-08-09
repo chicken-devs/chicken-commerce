@@ -12,6 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\CKE.Module.Catalog\CKE.Module.Catalog.csproj" />
     <ProjectReference Include="..\CKE.Modules.Account\CKE.Modules.Account.csproj" />
   </ItemGroup>
 
