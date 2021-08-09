@@ -174,11 +174,11 @@ A playground where the Code Lovers practice their skills.
 |   |   LoggingBehavior.cs
 |   |   TraceIdEnricher.cs
 |   |
-|   +---Swagger
-|   |   ConfigureSwaggerOptions.cs
-|   |   Extentions.cs
-|   |   SwaggerDefaultValues.cs
-|   |
+|   \---Swagger
+|       ConfigureSwaggerOptions.cs
+|       Extentions.cs
+|       SwaggerDefaultValues.cs
+|
 +---CKE.Shared
 |   |   CKE.Shared.csproj
 |   |
@@ -186,15 +186,15 @@ A playground where the Code Lovers practice their skills.
 |   |   DateTimeHelper.cs
 |   |   GuidHelper.cs
 |   |
-|   +---Extensions
-|   |   DateTimeExtensions.cs
-|   |   GuidExtensions.cs
-|   |   StringExtensions.cs
-|   |
+|   \---Extensions
+|       DateTimeExtensions.cs
+|       GuidExtensions.cs
+|       StringExtensions.cs
+|
 \---CKE.Modules
   |
-  +---Core.Account
-  |  |  Core.Account.project.cs
+  +---Account
+  |  |  Account.project.cs
   |  |
   |  +---EntryPoints
   |  |  |
@@ -242,8 +242,8 @@ A playground where the Code Lovers practice their skills.
     |     CatalogEventHandlers.cs
     |     EventModels.cs
     |
-    +---Core.Account
-    |   |   Core.Account.project.cs
+    +---Account
+    |   |   Account.project.cs
     |   |
     |   +---EntryPoints
     |   |   |
