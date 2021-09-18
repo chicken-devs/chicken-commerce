@@ -1,6 +1,6 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using System.Threading.Tasks;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using System.Threading.Tasks;
 
 namespace CKE.Module.Catalog.Controllers
 {
@@ -18,6 +18,7 @@ namespace CKE.Module.Catalog.Controllers
         [HttpGet]
         public async Task<bool> Get()
         {
+            _logger.LogInformation("HUYEN TEST LOGGING");
             return true;
         }
     }
