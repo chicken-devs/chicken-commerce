@@ -20,6 +20,11 @@
             return _microsoftLogger.BeginScope(state);
         }
 
+        public void Close()
+        {
+            (_microsoftLogger as IDisposable)?.Dispose();
+        }
+
         public bool IsEnabled(LogLevel logLevel)
         {
             return _microsoftLogger.IsEnabled(logLevel);

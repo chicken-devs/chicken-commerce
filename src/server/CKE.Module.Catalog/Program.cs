@@ -3,6 +3,7 @@ using CKE.Infra.Logging.Application;
 using CKE.Infra.Logging.Infrastructure;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Hosting;
+using Microsoft.Extensions.Logging;
 
 namespace CKE.Module.Catalog
 {
@@ -13,17 +14,26 @@ namespace CKE.Module.Catalog
         {
             try
             {
+                Logger.LogInformation("Application is starting");
                 CreateHostBuilder(args).Build().Run();
             }
             catch (Exception ex)
             {
-                throw;
+                Logger.LogError(ex, "Application stopped!!!");
+            }
+            finally
+            {
+                Logger.Close();
             }
         }
 
         public static IHostBuilder CreateHostBuilder(string[] args) =>
             Host.CreateDefaultBuilder(args)
-                .ConfigureLogging()
+                .ConfigureLogging(logging =>
+                {
+                    logging.ClearProviders();
+                    logging.SetMinimumLevel(Microsoft.Extensions.Logging.LogLevel.Trace);
+                })
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
                     webBuilder.UseStartup<Startup>();

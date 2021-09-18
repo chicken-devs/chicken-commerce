@@ -1,8 +1,7 @@
 ﻿namespace CKE.Infra.Logging.Application
 {
-    using Microsoft.Extensions.Logging;
-
-    public interface IStartLogger : ILogger
+    public interface IStartLogger : Microsoft.Extensions.Logging.ILogger
     {
+        void Close();
     }
 }
