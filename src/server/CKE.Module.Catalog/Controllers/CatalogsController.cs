@@ -19,6 +19,10 @@ namespace CKE.Module.Catalog.Controllers
         public async Task<bool> Get()
         {
             _logger.LogInformation("HUYEN TEST LOGGING");
+            _logger.LogError("HUYEN TEST LogError");
+            _logger.LogDebug("HUYEN TEST LogDebug");
+            _logger.LogTrace("HUYEN TEST LogTrace");
+
             return true;
         }
     }

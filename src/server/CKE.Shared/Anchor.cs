@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace CKE.Shared
+﻿namespace CKE.Shared
 {
     public class Anchor
     {

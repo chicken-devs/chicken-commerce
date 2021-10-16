@@ -49,6 +49,32 @@ public class Program
 }
 ```
 
+## How to use Logging
+
+The fisrt add reference to CKE.Infra project
+```
+[ApiController]
+[Route("[controller]")]
+public class CatalogsController : ControllerBase
+{
+    private readonly ILogger<CatalogsController> _logger;
+
+    public CatalogsController(ILogger<CatalogsController> logger)
+    {
+        _logger = logger;
+    }
+
+    [HttpGet]
+    public async Task<bool> Get()
+    {
+        _logger.LogInformation("Message here");
+        return true;
+    }
+}
+```
+- LogEventLevel.Debug is current host environment name
+- LogEventLevel.Information for the others
+
 # Changelog
 ## 2021.1.0
 * Initial version

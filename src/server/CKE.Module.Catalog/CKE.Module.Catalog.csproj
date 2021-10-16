@@ -13,4 +13,14 @@
     <ProjectReference Include="..\CKE.Infra\CKE.Infra.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Temp\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Temp\log.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>
