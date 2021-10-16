@@ -4,6 +4,7 @@
     using CKE.Shared.Helpers;
     using Microsoft.Extensions.Hosting;
     using Serilog;
+    using Serilog.Templates;
 
     public static class LoggingConfigurationBuilder
     {
@@ -36,16 +37,8 @@
 
         public static LoggerConfiguration ConsoleJsonConfiguration(this LoggerConfiguration configuration)
         {
-            var expressionTemplate = new JsonTemplateBuilder()
-                                        .Add("timestamp", "UtcDateTime(@t)")
-                                        .Add("level",
-                                            "coalesce({Debug: 'DEBUG', Information: 'INFO', Warning: 'WARN', Error: 'ERROR', 'Fatal': 'FATAL'}[@l], @l)")
-                                        .Add("message", "@m")
-                                        .Add("exception", "@x")
-                                        .Add("host", "MachineName")
-                                        .Add("environment", "environment")
-                                        .Add("thread", "ThreadId")
-                                        .Build();
+            var expressionTemplate = BuildTemplate();
+
             return configuration.WriteTo.Console(expressionTemplate);
         }
 
@@ -56,7 +49,15 @@
 
         private static LoggerConfiguration WriteToFileConfiguration(this LoggerConfiguration configuration)
         {
-            var expressionTemplate = new JsonTemplateBuilder()
+            var expressionTemplate = BuildTemplate();
+
+            var outputPath = @".\Temp\log.txt";
+            return configuration.WriteTo.File(expressionTemplate, outputPath);
+        }
+
+        private static ExpressionTemplate BuildTemplate()
+        {
+            return new JsonTemplateBuilder()
                                         .Add("timestamp", "UtcDateTime(@t)")
                                         .Add("level",
                                             "coalesce({Debug: 'DEBUG', Information: 'INFO', Warning: 'WARN', Error: 'ERROR', 'Fatal': 'FATAL'}[@l], @l)")
@@ -66,8 +67,6 @@
                                         .Add("environment", "environment")
                                         .Add("thread", "ThreadId")
                                         .Build();
-            var outputPath = @".\Temp\log.txt";
-            return configuration.WriteTo.File(expressionTemplate, outputPath);
         }
     }
 }
