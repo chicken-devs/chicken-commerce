@@ -67,9 +67,9 @@ A playground where the Code Lovers practice their skills.
 |   |           KafkaEventBus.cs
 |   |
 |   +---Logging
-|   |   Extensions.cs
-|   |   LoggingBehavior.cs
-|   |   TraceIdEnricher.cs
+|   |   HostBuilderExtension.cs
+|   |   LoggingConfigurationBuilder.cs
+|   |   EnricherConfigurationExtension.cs
 |   |
 |   \---Swagger
 |       ConfigureSwaggerOptions.cs

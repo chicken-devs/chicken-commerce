@@ -1,23 +1,35 @@
+using System;
+using CKE.Infra.Logging.Application;
+using CKE.Infra.Logging.Infrastructure;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace CKE.Module.Catalog
 {
     public class Program
     {
+        private static readonly IStartLogger Logger = StartupFactory.Create();
         public static void Main(string[] args)
         {
-            CreateHostBuilder(args).Build().Run();
+            try
+            {
+                Logger.LogInformation("Application is starting");
+                CreateHostBuilder(args).Build().Run();
+            }
+            catch (Exception ex)
+            {
+                Logger.LogError(ex, "Application stopped!!!");
+            }
+            finally
+            {
+                Logger.Close();
+            }
         }
 
         public static IHostBuilder CreateHostBuilder(string[] args) =>
             Host.CreateDefaultBuilder(args)
+                .ConfigureLogging()
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
                     webBuilder.UseStartup<Startup>();

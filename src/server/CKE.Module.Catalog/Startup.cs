@@ -1,16 +1,9 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace CKE.Module.Catalog
 {
@@ -32,6 +25,11 @@ namespace CKE.Module.Catalog
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "CKE.Module.Catalog", Version = "v1" });
             });
+
+            //services.AddKafka(Configuration.GetSection(KafkaServerSetting.DefaultKey).Get<KafkaServerSetting>());
+
+            // Register Kafka BackGround Service
+            //services.AddHostedService<KafkaConsumerService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
